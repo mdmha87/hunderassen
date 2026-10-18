@@ -2,6 +2,7 @@
   "use strict";
 
   const RASSEN = window.RASSEN;
+  for (const r of RASSEN) r.bilder = (window.BILDER || {})[r.id] || r.bilder || [];
   const GRUPPEN = window.FCI_GRUPPEN;
   const BY_ID = Object.fromEntries(RASSEN.map(r => [r.id, r]));
 

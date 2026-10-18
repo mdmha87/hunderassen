@@ -70,7 +70,7 @@ window.RASSEN = [
       "Es gibt ihn in drei Größen (Standard, Zwerg, Kaninchen) und drei Haararten: Kurzhaar, Rauhaar und Langhaar."
     ],
     verwechslung: ["welsh-corgi-pembroke", "beagle"],
-    link: "https://de.wikipedia.org/wiki/Dachshund",
+    link: "https://de.wikipedia.org/wiki/Dackel",
     bilder: []
   },
   {
@@ -132,12 +132,12 @@ window.RASSEN = [
   {
     id: "jack-russell-terrier",
     name: "Jack Russell Terrier",
-    stufe: 1, fci: 3, herkunft: "Großbritannien", groesse: "klein",
+    stufe: 1, fci: 3, herkunft: "Großbritannien / Australien", groesse: "klein",
     info: [
       "Benannt nach dem englischen Pfarrer John „Jack“ Russell, der im 19. Jahrhundert Terrier für die Fuchsjagd züchtete.",
       "Energiegeladen, furchtlos und mit ausgeprägtem Jagdtrieb – kein Hund für Couch-Liebhaber.",
       "Erkennbar am überwiegend weißen Fell mit braunen oder schwarzen Abzeichen und den nach vorn kippenden Ohren.",
-      "Das Fell kann glatt, rau oder eine Mischform („broken“) sein."
+      "Die Rasse entstand in England, den heutigen FCI-Standard betreut jedoch Australien. Das Fell kann glatt, rau oder eine Mischform („broken“) sein."
     ],
     verwechslung: ["west-highland-white-terrier", "bullterrier"],
     link: "https://de.wikipedia.org/wiki/Jack_Russell_Terrier",
@@ -168,7 +168,7 @@ window.RASSEN = [
       "Typische Farben sind Beige (Silber oder Apricot) mit schwarzer Maske oder ganz Schwarz."
     ],
     verwechslung: ["franzoesische-bulldogge", "englische-bulldogge"],
-    link: "https://de.wikipedia.org/wiki/Mops_(Hunderasse)",
+    link: "https://de.wikipedia.org/wiki/Mops",
     bilder: []
   },
   {
@@ -252,13 +252,13 @@ window.RASSEN = [
       "Seine Stimme ist ein typisches, lautes Geläut."
     ],
     verwechslung: ["jack-russell-terrier", "dackel"],
-    link: "https://de.wikipedia.org/wiki/Beagle",
+    link: "https://de.wikipedia.org/wiki/Beagle_(Hunderasse)",
     bilder: []
   },
   {
     id: "pudel",
     name: "Pudel",
-    stufe: 1, fci: 9, herkunft: "Frankreich", groesse: "mittel",
+    stufe: 1, fci: 9, herkunft: "Frankreich (umstritten: Deutschland)", groesse: "mittel",
     info: [
       "Ursprünglich ein Wasser- und Apportierhund; der Name kommt vom alten Wort „pudeln“ für im Wasser plantschen.",
       "Sehr intelligent, lernfreudig und gelehrig – lange beliebt bei Zirkus und Hundesport.",
@@ -336,7 +336,7 @@ window.RASSEN = [
       "Durch das Fell wirkt er wie ein kleiner Fellball."
     ],
     verwechslung: ["chihuahua", "samojede"],
-    link: "https://de.wikipedia.org/wiki/Deutscher_Spitz",
+    link: "https://de.wikipedia.org/wiki/Deutsche_Spitze",
     bilder: []
   },
   {
@@ -360,7 +360,7 @@ window.RASSEN = [
     info: [
       "Am Hof von Weimar als Jagdhund gezüchtet und eine der ältesten deutschen Vorstehhunderassen.",
       "Temperamentvoll, sehr bindungsstark und jagdlich passioniert.",
-      "Erkennbar am einfarbig silber-, reh- oder mausgrauen Fell und den hellen, bernsteinfarbenen bis blaugrauen Augen.",
+      "Erkennbar am einfarbig silber-, reh- oder mausgrauen Fell und den hellen, bernsteinfarbenen Augen (bei Welpen himmelblau).",
       "Neben dem verbreiteten Kurzhaar gibt es auch eine Langhaar-Variante."
     ],
     verwechslung: ["magyar-vizsla", "dobermann", "deutsche-dogge"],
@@ -369,16 +369,16 @@ window.RASSEN = [
   },
   {
     id: "magyar-vizsla",
-    name: "Magyar Vizsla",
+    name: "Magyar Vizsla (Kurzhaar)",
     stufe: 1, fci: 7, herkunft: "Ungarn", groesse: "gross",
     info: [
       "Der ungarische Vorstehhund wurde für die Jagd in der Steppe Ungarns gezüchtet.",
       "Sehr anhänglich und sensibel, gleichzeitig ausdauernd und bewegungsfreudig.",
-      "Erkennbar am kurzen, semmelgelben bis rostroten Fell, wobei Nase und Krallen in derselben Farbe gehalten sind.",
+      "Erkennbar am kurzen, semmelgelben bis rotgoldenen Fell; Nase, Lefzen und Krallen sind braun und passen farblich zum Fell.",
       "Es gibt auch einen drahthaarigen Vizsla."
     ],
     verwechslung: ["weimaraner", "rhodesian-ridgeback", "labrador-retriever"],
-    link: "https://de.wikipedia.org/wiki/Magyar_Vizsla",
+    link: "https://de.wikipedia.org/wiki/Kurzhaariger_Ungarischer_Vorstehhund",
     bilder: []
   },
   {
@@ -448,7 +448,7 @@ window.RASSEN = [
       "Im Gegensatz zum Deutschen Schäferhund hat er einen geraden Rücken."
     ],
     verwechslung: ["deutscher-schaeferhund", "samojede"],
-    link: "https://de.wikipedia.org/wiki/Weißer_Schweizer_Schäferhund",
+    link: "https://de.wikipedia.org/wiki/Berger_Blanc_Suisse",
     bilder: []
   },
   {
@@ -490,7 +490,7 @@ window.RASSEN = [
       "Zwischen den Zehen hat er Schwimmhäute."
     ],
     verwechslung: ["leonberger", "bernhardiner", "hovawart"],
-    link: "https://de.wikipedia.org/wiki/Neufundländer_(Hunderasse)",
+    link: "https://de.wikipedia.org/wiki/Neufundländer",
     bilder: []
   },
   {
@@ -515,7 +515,7 @@ window.RASSEN = [
       "Der Name bedeutet „Hofwächter“; die Rasse wurde im 20. Jahrhundert nach mittelalterlichen Vorbildern neu aufgebaut.",
       "Wachsam, selbstbewusst und loyal mit natürlichem Schutztrieb.",
       "Erkennbar am langen, leicht gewellten Fell in den Farben Schwarz, Schwarzmarken (Schwarz mit Blond) oder Blond.",
-      "Der schwarzmarkene Hovawart wird oft mit Mischlingen aus Rottweiler und Schäferhund verwechselt."
+      "Er gilt als Spätentwickler und ist erst mit etwa zwei bis drei Jahren ganz erwachsen."
     ],
     verwechslung: ["golden-retriever", "berner-sennenhund", "leonberger"],
     link: "https://de.wikipedia.org/wiki/Hovawart",
@@ -532,7 +532,7 @@ window.RASSEN = [
       "Er schwimmt gern und wird teils als Wasserrettungshund eingesetzt."
     ],
     verwechslung: ["neufundlaender", "hovawart", "bernhardiner"],
-    link: "https://de.wikipedia.org/wiki/Leonberger_(Hunderasse)",
+    link: "https://de.wikipedia.org/wiki/Leonberger",
     bilder: []
   },
   {
@@ -546,7 +546,7 @@ window.RASSEN = [
       "Er sieht aus wie eine große Version des Shetland Sheepdogs, ist aber eine eigene Rasse."
     ],
     verwechslung: ["shetland-sheepdog", "border-collie"],
-    link: "https://de.wikipedia.org/wiki/Collie",
+    link: "https://de.wikipedia.org/wiki/Collie_(Hunderasse)",
     bilder: []
   },
   {
@@ -585,7 +585,7 @@ window.RASSEN = [
       "Ein Abkömmling alter Mittelmeer-Schoßhunde, der im 16. Jahrhundert an französischen Höfen beliebt war.",
       "Fröhlich, verspielt und sehr menschenfreundlich.",
       "Erkennbar am weißen, lockigen und flauschigen Fell, das oft rund wie eine Wattewolke geschnitten wird.",
-      "Der Name bedeutet etwa „gelockter Schoßhund“."
+      "„Frisé“ ist französisch und bedeutet „gelockt“."
     ],
     verwechslung: ["malteser", "pudel", "havaneser"],
     link: "https://de.wikipedia.org/wiki/Bichon_Frisé",
@@ -602,7 +602,7 @@ window.RASSEN = [
       "Farben sind Pfeffer-Salz, Schwarz, Schwarz-Silber und Weiß."
     ],
     verwechslung: ["west-highland-white-terrier", "yorkshire-terrier"],
-    link: "https://de.wikipedia.org/wiki/Zwergschnauzer",
+    link: "https://de.wikipedia.org/wiki/Schnauzer",
     bilder: []
   },
   {
@@ -616,7 +616,7 @@ window.RASSEN = [
       "Berühmt ist der Akita Hachikō, der jahrelang am Bahnhof auf sein verstorbenes Herrchen wartete."
     ],
     verwechslung: ["shiba-inu", "siberian-husky"],
-    link: "https://de.wikipedia.org/wiki/Akita_Inu",
+    link: "https://de.wikipedia.org/wiki/Akita_(Hunderasse)",
     bilder: []
   },
   {
@@ -630,7 +630,7 @@ window.RASSEN = [
       "Er sieht aus wie eine kleine Ausgabe des Akita Inu."
     ],
     verwechslung: ["akita-inu", "welsh-corgi-pembroke"],
-    link: "https://de.wikipedia.org/wiki/Shiba_Inu",
+    link: "https://de.wikipedia.org/wiki/Shiba",
     bilder: []
   },
   {
@@ -638,7 +638,7 @@ window.RASSEN = [
     name: "Samojede",
     stufe: 1, fci: 5, herkunft: "Russland (Sibirien)", groesse: "mittel",
     info: [
-      "Benannt nach dem Volk der Samojeden (heute Nenzen) in Nordsibirien, die ihn zum Hüten von Rentieren und als Zughund nutzten.",
+      "Benannt nach den samojedischen Völkern Sibiriens (z. B. den Nenzen), die ihn zum Hüten von Rentieren und als Zughund nutzten.",
       "Freundlich, gesellig und kommunikativ – als Wachhund eher ungeeignet.",
       "Erkennbar am dichten, reinweißen bis cremefarbenen Fell und dem typischen „Samojeden-Lächeln“ mit hochgezogenen Mundwinkeln.",
       "Die Rute trägt er über den Rücken gerollt."
@@ -672,7 +672,7 @@ window.RASSEN = [
       "Er sieht aus wie ein kleiner Greyhound."
     ],
     verwechslung: ["greyhound"],
-    link: "https://de.wikipedia.org/wiki/Whippet",
+    link: "https://de.wikipedia.org/wiki/Whippet_(Hunderasse)",
     bilder: []
   },
   {
@@ -686,7 +686,7 @@ window.RASSEN = [
       "Ausgemusterte Rennhunde werden oft über Tierschutzvereine vermittelt."
     ],
     verwechslung: ["whippet", "dobermann"],
-    link: "https://de.wikipedia.org/wiki/Greyhound",
+    link: "https://de.wikipedia.org/wiki/Greyhound_(Hunderasse)",
     bilder: []
   },
   {
