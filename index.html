@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Hunderassen</title>
+  <meta name="description" content="Hunderassen lernen – Bild ansehen, Rasse erraten.">
+  <meta name="theme-color" content="#c2410c">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icons/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="icons/icon-180.png">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="Hunderassen">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <main id="app">
+
+    <!-- Startbildschirm -->
+    <section id="screen-start" class="screen active">
+      <header class="hero">
+        <div class="hero-icon" aria-hidden="true">🐕</div>
+        <h1>Hunderassen</h1>
+        <p class="sub">Bild ansehen, Rasse erraten.</p>
+      </header>
+
+      <div class="card settings">
+        <fieldset>
+          <legend>Umfang</legend>
+          <div class="seg" id="opt-stufe"></div>
+        </fieldset>
+        <fieldset>
+          <legend>Schwierigkeit</legend>
+          <div class="seg" id="opt-schwierigkeit">
+            <button type="button" data-value="leicht">Leicht</button>
+            <button type="button" data-value="mittel">Mittel</button>
+            <button type="button" data-value="schwer">Schwer</button>
+          </div>
+          <p class="hint" id="hint-schwierigkeit"></p>
+        </fieldset>
+        <fieldset>
+          <legend>Runde</legend>
+          <div class="seg" id="opt-runde">
+            <button type="button" data-value="10">10 Fragen</button>
+            <button type="button" data-value="20">20 Fragen</button>
+            <button type="button" data-value="0">Endlos</button>
+          </div>
+        </fieldset>
+      </div>
+
+      <button type="button" class="btn primary big" id="btn-start">Los geht's</button>
+      <button type="button" class="btn ghost" id="btn-stats">Mein Fortschritt</button>
+    </section>
+
+    <!-- Quiz -->
+    <section id="screen-quiz" class="screen">
+      <div class="topbar">
+        <button type="button" class="icon-btn" id="btn-quit" aria-label="Runde beenden">✕</button>
+        <div class="progress"><div class="progress-bar" id="progress-bar"></div></div>
+        <div class="counter" id="counter">1/10</div>
+      </div>
+
+      <figure class="photo" id="photo">
+        <img id="photo-img" alt="Hund – welche Rasse?">
+        <figcaption class="credit" id="photo-credit"></figcaption>
+      </figure>
+
+      <div class="answers" id="answers"></div>
+
+      <div class="feedback" id="feedback" hidden>
+        <div class="feedback-text" id="feedback-text"></div>
+        <div class="feedback-actions">
+          <button type="button" class="btn secondary" id="btn-info">ℹ Info</button>
+          <button type="button" class="btn primary" id="btn-next">Weiter →</button>
+        </div>
+        <div class="autonext" id="autonext"><div></div></div>
+      </div>
+    </section>
+
+    <!-- Rundenende -->
+    <section id="screen-end" class="screen">
+      <div class="card end-card">
+        <div class="end-emoji" id="end-emoji">🏆</div>
+        <h2 id="end-title">Geschafft!</h2>
+        <p class="end-score" id="end-score"></p>
+      </div>
+      <div class="card" id="end-wrong-card">
+        <h3>Diese solltest du dir nochmal ansehen</h3>
+        <ul class="breed-list" id="end-wrong"></ul>
+      </div>
+      <button type="button" class="btn primary big" id="btn-again">Nochmal</button>
+      <button type="button" class="btn ghost" id="btn-home">Zum Start</button>
+    </section>
+
+    <!-- Fortschritt -->
+    <section id="screen-stats" class="screen">
+      <div class="topbar">
+        <button type="button" class="icon-btn" id="btn-stats-back" aria-label="Zurück">←</button>
+        <h2 class="topbar-title">Mein Fortschritt</h2>
+      </div>
+      <div class="card stats-summary" id="stats-summary"></div>
+      <div class="card">
+        <ul class="breed-list" id="stats-list"></ul>
+      </div>
+      <button type="button" class="btn ghost danger" id="btn-reset">Fortschritt zurücksetzen</button>
+    </section>
+  </main>
+
+  <!-- Infobox -->
+  <dialog id="info-dialog" class="sheet">
+    <div class="sheet-inner">
+      <button type="button" class="icon-btn sheet-close" id="btn-info-close" aria-label="Schließen">✕</button>
+      <div class="gallery" id="info-gallery"></div>
+      <h2 id="info-name"></h2>
+      <div class="chips" id="info-chips"></div>
+      <ul class="facts" id="info-facts"></ul>
+      <p class="lookalikes" id="info-lookalikes"></p>
+      <a class="btn secondary" id="info-link" target="_blank" rel="noopener">Mehr auf Wikipedia ↗</a>
+      <p class="credit" id="info-credits"></p>
+    </div>
+  </dialog>
+
+  <script src="data/rassen.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
