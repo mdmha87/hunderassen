@@ -1492,5 +1492,1535 @@ window.BILDER = {
    "quelle": "Wikimedia Commons",
    "url": "https://commons.wikimedia.org/wiki/File:AlpineMastiff0077.JPG"
   }
+ ],
+ "parson-russell-terrier": [
+  {
+   "datei": "1.jpg",
+   "autor": "Sadnes",
+   "lizenz": "CC BY-SA 3.0",
+   "quelle": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Parson_Russell_Terier.jpg"
+  },
+  {
+   "datei": "2.jpg",
+   "autor": "Alephalpha",
+   "lizenz": "CC BY-SA 3.0",
+   "quelle": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/File:05052842_PRT_braun_glatt.jpg"
+  },
+  {
+   "datei": "3.jpg",
+   "autor": "Svenska Mässan from Sweden",
+   "lizenz": "CC BY 2.0",
+   "quelle": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Grupp_3,_PARSON_RUSSEL_TERRIER,_JEUW-15_JWW-15_Revefotens_Lilo_(23664806353).jpg"
+  },
+  {
+   "datei": "4.jpg",
+   "autor": "Alephalpha",
+   "lizenz": "CC BY-SA 3.0",
+   "quelle": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/File:06070946_Parson_Russell_Terrier_white.jpg"
+  }
+ ],
+ "staffordshire-bullterrier": [
+  {
+   "datei": "1.jpg",
+   "autor": "Joachim Bowin",
+   "lizenz": "CC BY-SA 3.0",
+   "quelle": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Lexus_1_ar.jpg"
+  },
+  {
+   "datei": "2.jpg",
+   "autor": "Cralton",
+   "lizenz": "CC BY-SA 3.0",
+   "quelle": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Another_ideal_staffy.jpg"
+  },
+  {
+   "datei": "3.jpg",
+   "autor": "V.O.ERIC",
+   "lizenz": "CC BY-SA 4.0",
+   "quelle": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/File:DSCF1410_(2).jpg"
+  },
+  {
+   "datei": "4.jpg",
+   "autor": "Serial Number 54129",
+   "lizenz": "CC BY-SA 4.0",
+   "quelle": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Brindle_%26_white_Staffordshire_Bull_Terrier_(AKA_Essie).jpg"
+  }
+ ],
+ "american-staffordshire-terrier": [
+  {
+   "datei": "1.jpg",
+   "autor": "Germiona S",
+   "lizenz": "CC BY-SA 4.0",
+   "quelle": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/File:AmstaffGermiona174.jpg"
+  },
+  {
+   "datei": "2.jpg",
+   "autor": "Canarian",
+   "lizenz": "CC BY-SA 4.0",
+   "quelle": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Americanstaffordshire-red%26white2.jpg"
+  },
+  {
+   "datei": "3.jpg",
+   "autor": "Canarian",
+   "lizenz": "CC BY-SA 4.0",
+   "quelle": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/File:AmStaff-brindlewhite2.jpg"
+  },
+  {
+   "datei": "4.jpg",
+   "autor": "Carroy47",
+   "lizenz": "CC BY-SA 4.0",
+   "quelle": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/File:American_Staffordshire_Terrier_Mumford.jpg"
+  }
+ ],
+ "airedale-terrier": [
+  {
+   "datei": "1.jpg",
+   "autor": "Zuni1520",
+   "lizenz": "CC BY-SA 3.0",
+   "quelle": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Airedale-terrier-charles14m.jpg"
+  },
+  {
+   "datei": "2.jpg",
+   "autor": "Lilly M",
+   "lizenz": "CC BY-SA 2.5",
+   "quelle": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Airedale_terrier_744.jpg"
+  },
+  {
+   "datei": "3.jpg",
+   "autor": "Amélie Tsaag Valren",
+   "lizenz": "CC BY-SA 4.0",
+   "quelle": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Airedale_terrier_head,_Josselin_01.jpg"
+  },
+  {
+   "datei": "4.jpg",
+   "autor": "Томасина",
+   "lizenz": "CC BY-SA 3.0",
+   "quelle": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Airedale_Terrier_in_stand_3.JPG"
+  }
+ ],
+ "scottish-terrier": [
+  {
+   "datei": "1.jpg",
+   "autor": "narujen",
+   "lizenz": "CC BY 2.0",
+   "quelle": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Black_Scottish_Terrier.jpg"
+  },
+  {
+   "datei": "2.jpg",
+   "autor": "narujen",
+   "lizenz": "CC BY 2.0",
+   "quelle": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/File:A_Scottish_Terrier.jpg"
+  },
+  {
+   "datei": "3.jpg",
+   "autor": "Steven Straiton",
+   "lizenz": "CC BY 2.0",
+   "quelle": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/File:1Scottie_Dog_on_the_grass_2.jpg"
+  },
+  {
+   "datei": "4.jpg",
+   "autor": "narujen",
+   "lizenz": "CC BY 2.0",
+   "quelle": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/File:0Scottish_Terrier.jpg"
+  }
+ ],
+ "cairn-terrier": [
+  {
+   "datei": "1.jpg",
+   "autor": "Bitjungle",
+   "lizenz": "CC BY-SA 3.0",
+   "quelle": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Cairn_Terrier_-_001.jpg"
+  },
+  {
+   "datei": "2.jpg",
+   "autor": "Poesje87",
+   "lizenz": "CC BY-SA 3.0",
+   "quelle": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Freggle.JPG"
+  },
+  {
+   "datei": "3.jpg",
+   "autor": "Canarian",
+   "lizenz": "CC BY-SA 4.0",
+   "quelle": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Cairnwheaten.jpg"
+  },
+  {
+   "datei": "4.jpg",
+   "autor": "John",
+   "lizenz": "CC BY 2.0",
+   "quelle": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Cairn_Terrier_portrait.jpg"
+  }
+ ],
+ "border-terrier": [
+  {
+   "datei": "1.jpg",
+   "autor": "Samuel Cockman",
+   "lizenz": "CC BY 2.0",
+   "quelle": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/File:1_Border_Terrier.jpg"
+  },
+  {
+   "datei": "2.jpg",
+   "autor": "Petteri Sulonen from Helsinki, Finland",
+   "lizenz": "CC BY 2.0",
+   "quelle": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Border_Terrier_Kamu.jpg"
+  },
+  {
+   "datei": "3.jpg",
+   "autor": "Lilly M",
+   "lizenz": "CC BY-SA 2.5",
+   "quelle": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Border_terrier_766_LM.jpg"
+  },
+  {
+   "datei": "4.jpg",
+   "autor": "Samuel Cockman",
+   "lizenz": "CC BY 2.0",
+   "quelle": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/File:A_Border_terrier.jpg"
+  }
+ ],
+ "boston-terrier": [
+  {
+   "datei": "1.jpg",
+   "autor": "Andreas Schlaugat",
+   "lizenz": "CC BY 3.0",
+   "quelle": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Boston-terrier-carlos-de.JPG"
+  },
+  {
+   "datei": "2.jpg",
+   "autor": "SachaROBERT",
+   "lizenz": "CC BY-SA 4.0",
+   "quelle": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Boston_terrierfemelle.jpg"
+  },
+  {
+   "datei": "3.jpg",
+   "autor": "Svenska Mässan from Sweden",
+   "lizenz": "CC BY 2.0",
+   "quelle": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/File:BOSTON_TERRIER,_Ving%C3%A5rdens_Essi_von_Richards_(23995273800).2.jpg"
+  },
+  {
+   "datei": "4.jpg",
+   "autor": "Tommi Nummelin",
+   "lizenz": "CC BY-SA 3.0",
+   "quelle": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Bostoninterrieri.jpg"
+  }
+ ],
+ "riesenschnauzer": [
+  {
+   "datei": "1.jpg",
+   "autor": "Petrucha",
+   "lizenz": "CC BY-SA 3.0",
+   "quelle": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Nev_Lemar_Barbara1.jpg"
+  },
+  {
+   "datei": "2.jpg",
+   "autor": "Paul Kounine (mischivo)",
+   "lizenz": "CC BY-SA 3.0",
+   "quelle": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/File:GiantSchnauzer_Grass.jpg"
+  },
+  {
+   "datei": "3.jpg",
+   "autor": "Desaix83, d'après le travail de Kkrzysiu o2",
+   "lizenz": "CC BY-SA 3.0",
+   "quelle": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Schnauzer_G%C3%A9ant.jpg"
+  },
+  {
+   "datei": "4.jpg",
+   "autor": "Canarian",
+   "lizenz": "CC BY-SA 4.0",
+   "quelle": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Riesen-pepper%26salt3.jpg"
+  }
+ ],
+ "mittelschnauzer": [
+  {
+   "datei": "1.jpg",
+   "autor": "Томасина",
+   "lizenz": "CC BY-SA 4.0",
+   "quelle": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Schnauzer_Moletai_May_2014.jpg"
+  },
+  {
+   "datei": "2.jpg",
+   "autor": "Standardschnauzer1",
+   "lizenz": "CC0",
+   "quelle": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Docked_Pepper_%26_Salt_Standard_Schnauzer_American_Champion.jpg"
+  },
+  {
+   "datei": "3.jpg",
+   "autor": "Томасина",
+   "lizenz": "CC BY-SA 3.0",
+   "quelle": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Schnauzer_Pepper%26Salt_in_Riga.JPG"
+  },
+  {
+   "datei": "4.jpg",
+   "autor": "Pleple2000",
+   "lizenz": "CC BY-SA 3.0",
+   "quelle": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Sznaucer_%C5%9Bredni_h222.jpg"
+  }
+ ],
+ "zwergpinscher": [
+  {
+   "datei": "1.jpg",
+   "autor": "Svenska Mässan from Sweden",
+   "lizenz": "CC BY 2.0",
+   "quelle": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Grupp_2_DV%C3%84RGPINCHER,_Pincerella%E2%80%99s_Rinaldo_Rosso_(24260846206).jpg"
+  },
+  {
+   "datei": "2.jpg",
+   "autor": "Pacia04",
+   "lizenz": "CC BY-SA 4.0",
+   "quelle": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Pinczer_Miniaturowy.jpg"
+  },
+  {
+   "datei": "3.jpg",
+   "autor": "Kpt vernunft",
+   "lizenz": "CC BY-SA 3.0",
+   "quelle": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Zwergpinscher.Denzo-vom-Reichsgraf-zu-Herrenheim_1500X1500.jpg"
+  },
+  {
+   "datei": "4.jpg",
+   "autor": "Wikirulespro",
+   "lizenz": "CC BY-SA 4.0",
+   "quelle": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Pinscher_miniatura_hembra.jpg"
+  }
+ ],
+ "deutscher-pinscher": [
+  {
+   "datei": "1.jpg",
+   "autor": "unbekannt",
+   "lizenz": "CC BY-SA 3.0",
+   "quelle": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/File:German_Pinscher.JPG"
+  },
+  {
+   "datei": "2.jpg",
+   "autor": "Pleple2000 12:20, 5 April 2006 (UTC)",
+   "lizenz": "CC BY-SA 3.0",
+   "quelle": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Pinczer_%C5%9Bredni_91.jpg"
+  },
+  {
+   "datei": "3.jpg",
+   "autor": "User:Stesi-cliff",
+   "lizenz": "CC BY-SA 3.0",
+   "quelle": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Deutscher_Pinscher.2.jpg"
+  },
+  {
+   "datei": "4.jpg",
+   "autor": "Babsi B.",
+   "lizenz": "CC BY-SA 3.0",
+   "quelle": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Deutscher_Pinscher_-_Unbestechliche_Aufmerksamkeit!.JPG"
+  }
+ ],
+ "cane-corso": [
+  {
+   "datei": "1.jpg",
+   "autor": "Canarian",
+   "lizenz": "CC BY-SA 4.0",
+   "quelle": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Italian_Corso_Dog_grey_brindle_male_3.jpg"
+  },
+  {
+   "datei": "2.jpg",
+   "autor": "Canarian",
+   "lizenz": "CC BY-SA 4.0",
+   "quelle": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Italian_Corso_Dog_red_brindle_male.jpg"
+  },
+  {
+   "datei": "3.jpg",
+   "autor": "Topmoretta",
+   "lizenz": "CC BY-SA 4.0",
+   "quelle": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Anita_Cane_Corso_Italiano_allevato_in_Italia.jpg"
+  },
+  {
+   "datei": "4.jpg",
+   "autor": "Canarian",
+   "lizenz": "CC BY-SA 4.0",
+   "quelle": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Italian_Corso_Dog_grey_brindle_male_1.jpg"
+  }
+ ],
+ "bordeauxdogge": [
+  {
+   "datei": "1.jpg",
+   "autor": "Canarian",
+   "lizenz": "CC BY-SA 4.0",
+   "quelle": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/File:French_Mastiff_female_4.jpg"
+  },
+  {
+   "datei": "2.jpg",
+   "autor": "Canarian",
+   "lizenz": "CC BY-SA 4.0",
+   "quelle": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Bordeaux1.jpg"
+  },
+  {
+   "datei": "3.jpg",
+   "autor": "DJT at Dutch Wikipedia (Original text: DJT)",
+   "lizenz": "CC BY-SA 2.5",
+   "quelle": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/File:DJT_0086.jpg"
+  },
+  {
+   "datei": "4.jpg",
+   "autor": "Lua Bittencourt from Porto, Portugal",
+   "lizenz": "CC BY 2.0",
+   "quelle": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Encontro_Dog_Institute_(41038148155).jpg"
+  }
+ ],
+ "mastiff": [
+  {
+   "datei": "1.jpg",
+   "autor": "Canarian",
+   "lizenz": "CC BY-SA 4.0",
+   "quelle": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/File:English_Mastiff_fawn_male_4.jpg"
+  },
+  {
+   "datei": "2.jpg",
+   "autor": "Canarian",
+   "lizenz": "CC BY-SA 4.0",
+   "quelle": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/File:English_Mastiff_brindle_male_4.jpg"
+  },
+  {
+   "datei": "3.jpg",
+   "autor": "Wojciech Pędzich",
+   "lizenz": "CC BY-SA 4.0",
+   "quelle": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Mastif_angielski_2021_02.jpg"
+  },
+  {
+   "datei": "4.jpg",
+   "autor": "Canarian",
+   "lizenz": "CC BY-SA 4.0",
+   "quelle": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/File:English_Mastiff_fawn_female_2.jpg"
+  }
+ ],
+ "bullmastiff": [
+  {
+   "datei": "1.jpg",
+   "autor": "Pleple2000",
+   "lizenz": "CC BY-SA 3.0",
+   "quelle": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Bullmastif_555.jpg"
+  },
+  {
+   "datei": "2.jpg",
+   "autor": "Fausto Moreno",
+   "lizenz": "CC BY-SA 3.0",
+   "quelle": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Bullmastiff_edited.JPG"
+  },
+  {
+   "datei": "3.jpg",
+   "autor": "Canarian",
+   "lizenz": "CC BY-SA 4.0",
+   "quelle": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Bullmastiff_fawn_male_2.jpg"
+  },
+  {
+   "datei": "4.jpg",
+   "autor": "Met20",
+   "lizenz": "CC BY-SA 3.0",
+   "quelle": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Bullmastiff_Tan_Male.jpg"
+  }
+ ],
+ "grosser-schweizer-sennenhund": [
+  {
+   "datei": "1.jpg",
+   "autor": "KIKKUZZO88",
+   "lizenz": "Public domain",
+   "quelle": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Swissy.JPG"
+  },
+  {
+   "datei": "2.jpg",
+   "autor": "Canarian",
+   "lizenz": "CC BY-SA 4.0",
+   "quelle": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Greater_Swiss_Mountain_Dog_2018.jpg"
+  },
+  {
+   "datei": "3.jpg",
+   "autor": "Canarian",
+   "lizenz": "CC BY-SA 4.0",
+   "quelle": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Greater_Swiss_Mountain_Dog_2018_(2).jpg"
+  },
+  {
+   "datei": "4.jpg",
+   "autor": "No machine-readable author provided. KIKKUZZO88 assumed (based on copyright clai",
+   "lizenz": "Public domain",
+   "quelle": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Balu.jpg"
+  }
+ ],
+ "entlebucher-sennenhund": [
+  {
+   "datei": "1.jpg",
+   "autor": "Leuchtender Hund",
+   "lizenz": "CC BY-SA 3.0",
+   "quelle": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Entlebucher.jpg"
+  },
+  {
+   "datei": "2.jpg",
+   "autor": "Canarian",
+   "lizenz": "CC BY-SA 4.0",
+   "quelle": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Entlebuchcattlesennen.jpg"
+  },
+  {
+   "datei": "3.jpg",
+   "autor": "Canarian",
+   "lizenz": "CC BY-SA 4.0",
+   "quelle": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Entlebuch1.jpg"
+  },
+  {
+   "datei": "4.jpg",
+   "autor": "Canarian",
+   "lizenz": "CC BY-SA 4.0",
+   "quelle": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/File:DocFile_Entlebuch.jpg"
+  }
+ ],
+ "appenzeller-sennenhund": [
+  {
+   "datei": "1.jpg",
+   "autor": "Canarian",
+   "lizenz": "CC BY-SA 4.0",
+   "quelle": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Appenzellcattledog-blacktri1.jpg"
+  },
+  {
+   "datei": "2.jpg",
+   "autor": "SportKBK",
+   "lizenz": "CC BY-SA 4.0",
+   "quelle": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Abora_z_Velk%C3%A9ho_%C3%9Ajezda5.jpg"
+  },
+  {
+   "datei": "3.jpg",
+   "autor": "RobK50",
+   "lizenz": "CC0",
+   "quelle": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Appenzeller_-_Frodo.jpg"
+  },
+  {
+   "datei": "4.jpg",
+   "autor": "Canarian",
+   "lizenz": "CC BY 4.0",
+   "quelle": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Appenzellinpaimen3.jpg"
+  }
+ ],
+ "bearded-collie": [
+  {
+   "datei": "1.jpg",
+   "autor": "marbla123",
+   "lizenz": "CC BY 2.0",
+   "quelle": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Bearded_Collie.jpg"
+  },
+  {
+   "datei": "2.jpg",
+   "autor": "Wojciech Pędzich",
+   "lizenz": "CC BY-SA 4.0",
+   "quelle": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Owczarek_staroangielski,_2021.jpg"
+  },
+  {
+   "datei": "3.jpg",
+   "autor": "filippina",
+   "lizenz": "CC BY-SA 3.0",
+   "quelle": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Bobtail_als_Integrationshund.JPG"
+  },
+  {
+   "datei": "4.jpg",
+   "autor": "j",
+   "lizenz": "CC BY-SA 4.0",
+   "quelle": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Partacollie.jpg"
+  }
+ ],
+ "bobtail": [
+  {
+   "datei": "1.jpg",
+   "autor": "Томасина",
+   "lizenz": "CC BY-SA 4.0",
+   "quelle": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Bobtail_Moletai_May_2014.jpg"
+  },
+  {
+   "datei": "2.jpg",
+   "autor": "Томасина",
+   "lizenz": "CC BY-SA 3.0",
+   "quelle": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Bobtail_in_Riga_1.JPG"
+  },
+  {
+   "datei": "3.jpg",
+   "autor": "AKS.9955",
+   "lizenz": "CC BY-SA 4.0",
+   "quelle": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Old_English_Sheepdog_(side).jpg"
+  },
+  {
+   "datei": "4.jpg",
+   "autor": "unbekannt",
+   "lizenz": "CC BY-SA 2.0",
+   "quelle": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Old_English_Sheepdog-Nana.jpg"
+  }
+ ],
+ "australian-cattle-dog": [
+  {
+   "datei": "1.jpg",
+   "autor": "Pleple2000",
+   "lizenz": "CC BY-SA 3.0",
+   "quelle": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Australian_Cattle_Dog_22.04.2012_5pl.jpg"
+  },
+  {
+   "datei": "2.jpg",
+   "autor": "Eva holderegger walser",
+   "lizenz": "CC BY-SA 3.0",
+   "quelle": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/File:ACD_Multi_Ch._Silverbarn%27s_Naava.jpg"
+  },
+  {
+   "datei": "3.jpg",
+   "autor": "Wonderchook",
+   "lizenz": "CC BY-SA 4.0",
+   "quelle": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Australian_Cattle_Dog_Side_View_Looking_At_Camera.jpg"
+  },
+  {
+   "datei": "4.jpg",
+   "autor": "Eva holderegger walser",
+   "lizenz": "CC BY-SA 3.0",
+   "quelle": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/File:ACD_MK_Mishak.JPG"
+  }
+ ],
+ "flat-coated-retriever": [
+  {
+   "datei": "1.jpg",
+   "autor": "Томасина",
+   "lizenz": "CC BY-SA 3.0",
+   "quelle": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Flat-Coated_Retriever_in_Tallinn_2.JPG"
+  },
+  {
+   "datei": "2.jpg",
+   "autor": "Томасина",
+   "lizenz": "CC BY-SA 3.0",
+   "quelle": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Flat-Coated_Retriever_in_Tallinn.JPG"
+  },
+  {
+   "datei": "3.jpg",
+   "autor": "Fesoj-wr",
+   "lizenz": "CC BY-SA 4.0",
+   "quelle": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Flat_Coated_Retriever.jpg"
+  },
+  {
+   "datei": "4.jpg",
+   "autor": "Randen Pederson",
+   "lizenz": "CC BY 2.0",
+   "quelle": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/File:I%27m_Not_Going_In_There.jpg"
+  }
+ ],
+ "nova-scotia-duck-tolling-retriever": [
+  {
+   "datei": "1.jpg",
+   "autor": "Томасина",
+   "lizenz": "CC BY-SA 3.0",
+   "quelle": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Duck_Tolling_Retriever.JPG"
+  },
+  {
+   "datei": "2.jpg",
+   "autor": "Naellenathan",
+   "lizenz": "CC BY-SA 4.0",
+   "quelle": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/File:AC0A3977.jpg"
+  },
+  {
+   "datei": "3.jpg",
+   "autor": "Svenska Mässan from Sweden",
+   "lizenz": "CC BY 2.0",
+   "quelle": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Grupp_8_NOVA_SCOTIA_DUCK_TOLLING_RETRIEVER,_SE_UCH_SE_VCH_Riverbreeze_Dream_Team_Kiowa_(24179936022).jpg"
+  },
+  {
+   "datei": "4.jpg",
+   "autor": "Christopher Woo",
+   "lizenz": "CC BY 2.0",
+   "quelle": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Nova_Scotia_Duck-Tolling_Retriever_laying.jpg"
+  }
+ ],
+ "lagotto-romagnolo": [
+  {
+   "datei": "1.jpg",
+   "autor": "Entheta",
+   "lizenz": "CC BY-SA 3.0",
+   "quelle": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Bellalagotto2.jpg"
+  },
+  {
+   "datei": "2.jpg",
+   "autor": "Canarian",
+   "lizenz": "CC BY-SA 4.0",
+   "quelle": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Lagotto-liverroan2.jpg"
+  },
+  {
+   "datei": "3.jpg",
+   "autor": "Entheta",
+   "lizenz": "CC BY-SA 3.0",
+   "quelle": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Bellalagotto1.jpg"
+  },
+  {
+   "datei": "4.jpg",
+   "autor": "Canarian",
+   "lizenz": "CC BY-SA 4.0",
+   "quelle": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Lagotto-brown%26white1.jpg"
+  }
+ ],
+ "springer-spaniel": [
+  {
+   "datei": "1.jpg",
+   "autor": "photo taken by Heinz Höfling [User:Hhoefling]",
+   "lizenz": "CC BY-SA 3.0",
+   "quelle": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/File:English-Springer-Spaniel-Coffee2.jpg"
+  },
+  {
+   "datei": "2.jpg",
+   "autor": "Smudger94",
+   "lizenz": "CC BY-SA 3.0",
+   "quelle": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/File:English_Springer_%22Sprog%222.JPG"
+  },
+  {
+   "datei": "3.jpg",
+   "autor": "Ofrockwood",
+   "lizenz": "Public domain",
+   "quelle": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/File:BuddyESS.JPG"
+  },
+  {
+   "datei": "4.jpg",
+   "autor": "Canarian",
+   "lizenz": "CC BY-SA 4.0",
+   "quelle": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/File:DocFile_Springer.jpg"
+  }
+ ],
+ "deutscher-wachtelhund": [
+  {
+   "datei": "1.jpg",
+   "autor": "Steffen Heinz (Caronna)",
+   "lizenz": "CC BY-SA 2.5",
+   "quelle": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Deutscher_Wachtel_2.jpg"
+  },
+  {
+   "datei": "2.jpg",
+   "autor": "Pleple2000",
+   "lizenz": "CC BY-SA 4.0",
+   "quelle": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Plochacz_niemiecki_pl.jpg"
+  },
+  {
+   "datei": "3.jpg",
+   "autor": "Svenska Mässan from Sweden",
+   "lizenz": "CC BY 2.0",
+   "quelle": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/File:BIR_Grupp_8-_WACHTELHUND,_St%C3%B6yletuftas_Legolas_(24189380991).jpg"
+  },
+  {
+   "datei": "4.jpg",
+   "autor": "Pleple2000",
+   "lizenz": "CC BY-SA 4.0",
+   "quelle": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/File:P%C5%82ochacz_niemiecki_2009_pl.jpg"
+  }
+ ],
+ "deutsch-kurzhaar": [
+  {
+   "datei": "1.jpg",
+   "autor": "Canarian",
+   "lizenz": "CC BY-SA 4.0",
+   "quelle": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/File:GermanPointerShort-brownspeckled1.jpg"
+  },
+  {
+   "datei": "2.jpg",
+   "autor": "US Weekly",
+   "lizenz": "CC0",
+   "quelle": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/File:CJ_Westminister_Winner_2016_Garbonita.jpg"
+  },
+  {
+   "datei": "3.jpg",
+   "autor": "Canarian",
+   "lizenz": "CC BY-SA 4.0",
+   "quelle": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/File:GermanPointerShort-brown2.jpg"
+  },
+  {
+   "datei": "4.jpg",
+   "autor": "Canarian",
+   "lizenz": "CC BY-SA 4.0",
+   "quelle": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/File:GermanPointerShort-brown1.jpg"
+  }
+ ],
+ "irish-setter": [
+  {
+   "datei": "1.jpg",
+   "autor": "Luis Miguel Bugallo Sánchez (Lmbuga Commons)(Lmbuga Galipedia) Publicada por/Pub",
+   "lizenz": "CC BY-SA 3.0",
+   "quelle": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Can_Setter_dog_GFDL.jpg"
+  },
+  {
+   "datei": "2.jpg",
+   "autor": "Томасина",
+   "lizenz": "CC BY-SA 3.0",
+   "quelle": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Irish_Setter_in_Tallinn_2.JPG"
+  },
+  {
+   "datei": "3.jpg",
+   "autor": "Victor Sounds",
+   "lizenz": "CC BY-SA 2.0",
+   "quelle": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Irish_Setter.jpg"
+  },
+  {
+   "datei": "4.jpg",
+   "autor": "Canarian",
+   "lizenz": "CC BY-SA 4.0",
+   "quelle": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/File:DocFile_Red.jpg"
+  }
+ ],
+ "english-setter": [
+  {
+   "datei": "1.jpg",
+   "autor": "Malvasanesteban",
+   "lizenz": "CC BY-SA 4.0",
+   "quelle": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Cholo_cazando.jpg"
+  },
+  {
+   "datei": "2.jpg",
+   "autor": "Томасина",
+   "lizenz": "CC BY-SA 3.0",
+   "quelle": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/File:English_Setter_in_Tallinn_2.JPG"
+  },
+  {
+   "datei": "3.jpg",
+   "autor": "Canarian",
+   "lizenz": "CC BY-SA 4.0",
+   "quelle": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/File:EngSet-b%26w1.jpg"
+  },
+  {
+   "datei": "4.jpg",
+   "autor": "SheltieBoy from USA",
+   "lizenz": "CC BY 2.0",
+   "quelle": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/File:AKC_Fall_Dog_Show_2013_(9867216604).jpg"
+  }
+ ],
+ "pointer": [
+  {
+   "datei": "1.jpg",
+   "autor": "Томасина",
+   "lizenz": "CC BY-SA 3.0",
+   "quelle": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/File:English_Pointer_in_Riga_1_(cropped).JPG"
+  },
+  {
+   "datei": "2.jpg",
+   "autor": "Томасина",
+   "lizenz": "CC BY-SA 3.0",
+   "quelle": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/File:English_Pointer_in_Riga_2.JPG"
+  },
+  {
+   "datei": "3.jpg",
+   "autor": "claralieu",
+   "lizenz": "CC BY 2.0",
+   "quelle": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/File:English_Pointer_Dog_-8.jpg"
+  },
+  {
+   "datei": "4.jpg",
+   "autor": "Francisco Rodriguez Grippo",
+   "lizenz": "CC BY 3.0",
+   "quelle": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Are_You_Looking_To_Me_(64223041).jpeg"
+  }
+ ],
+ "kleiner-muensterlaender": [
+  {
+   "datei": "1.jpg",
+   "autor": "Svenska Mässan from Sweden",
+   "lizenz": "CC BY 2.0",
+   "quelle": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/File:BIR_Grupp_7-_KLEINER_M%C3%9CNSTL%C3%84NDER_J_Choco_(23627841193).jpg"
+  },
+  {
+   "datei": "2.jpg",
+   "autor": "MAKY.OREL",
+   "lizenz": "CC BY 3.0",
+   "quelle": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Mal%C3%BD_m%C3%BCnsterlandsk%C3%BD_oha%C5%99.jpg"
+  },
+  {
+   "datei": "3.jpg",
+   "autor": "Canarian",
+   "lizenz": "CC BY-SA 4.0",
+   "quelle": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Smallmunsterlandervorsteh7.jpg"
+  },
+  {
+   "datei": "4.jpg",
+   "autor": "Pleple2000",
+   "lizenz": "CC BY-SA 3.0",
+   "quelle": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Ma%C5%82y_wy%C5%BCe%C5%82_munsterlandzki_u74u7.jpg"
+  }
+ ],
+ "basset-hound": [
+  {
+   "datei": "1.jpg",
+   "autor": "Galanza",
+   "lizenz": "CC BY-SA 4.0",
+   "quelle": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/File:BassetHound.jpg"
+  },
+  {
+   "datei": "2.jpg",
+   "autor": "Pohled 111",
+   "lizenz": "CC BY-SA 4.0",
+   "quelle": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Basset_Hound_(Havl%C3%AD%C4%8Dk%C5%AFv_Brod)_02.jpg"
+  },
+  {
+   "datei": "3.jpg",
+   "autor": "patchattack from woodbury, tn",
+   "lizenz": "CC BY-SA 2.0",
+   "quelle": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Aggie_facing_West_-_Flickr_-_patchattack.jpg"
+  },
+  {
+   "datei": "4.jpg",
+   "autor": "Canarian",
+   "lizenz": "CC BY-SA 4.0",
+   "quelle": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Basset-saddledpiebald.jpg"
+  }
+ ],
+ "bloodhound": [
+  {
+   "datei": "1.jpg",
+   "autor": "Cleanboot (talk) (Uploads)",
+   "lizenz": "Public domain",
+   "quelle": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Bloodhound_black_and_tan.jpg"
+  },
+  {
+   "datei": "2.jpg",
+   "autor": "Cleanboot (talk) (Uploads)",
+   "lizenz": "Public domain",
+   "quelle": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Bloodhound_red_liver_pigmented.jpg"
+  },
+  {
+   "datei": "3.jpg",
+   "autor": "Bruce",
+   "lizenz": "CC BY 2.0",
+   "quelle": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Bloodhound2.jpg"
+  },
+  {
+   "datei": "4.jpg",
+   "autor": "Flickr user SuperFantastic",
+   "lizenz": "CC BY 2.0",
+   "quelle": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Bloodhound_portrait.jpg"
+  }
+ ],
+ "eurasier": [
+  {
+   "datei": "1.jpg",
+   "autor": "Canarian",
+   "lizenz": "CC BY-SA 4.0",
+   "quelle": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Eurasier-red2.jpg"
+  },
+  {
+   "datei": "2.jpg",
+   "autor": "Ekta at Dutch Wikipedia",
+   "lizenz": "CC BY-SA 3.0",
+   "quelle": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Eurasier.jpg"
+  },
+  {
+   "datei": "3.jpg",
+   "autor": "Siasegos",
+   "lizenz": "CC BY-SA 4.0",
+   "quelle": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Eurasier_Kai_Eurasipomer.jpg"
+  },
+  {
+   "datei": "4.jpg",
+   "autor": "Pleple2000",
+   "lizenz": "CC BY-SA 4.0",
+   "quelle": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Eurasier_2009_pl2.jpg"
+  }
+ ],
+ "chow-chow": [
+  {
+   "datei": "1.jpg",
+   "autor": "Томасина",
+   "lizenz": "CC BY-SA 3.0",
+   "quelle": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Chow-chow_in_Tallinn.JPG"
+  },
+  {
+   "datei": "2.jpg",
+   "autor": "Томасина",
+   "lizenz": "CC BY-SA 3.0",
+   "quelle": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Chow-chow.JPG"
+  },
+  {
+   "datei": "3.jpg",
+   "autor": "Emőke Dénes",
+   "lizenz": "CC BY-SA 4.0",
+   "quelle": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Carnivora_-_Chow-Chow_-_1.jpg"
+  },
+  {
+   "datei": "4.jpg",
+   "autor": "Goran Vlacic from Vancouver",
+   "lizenz": "CC BY-SA 2.0",
+   "quelle": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/File:A_Chow_Chow_called_Ling_Chao_(40742896423).jpg"
+  }
+ ],
+ "basenji": [
+  {
+   "datei": "1.jpg",
+   "autor": "Томасина",
+   "lizenz": "CC BY-SA 3.0",
+   "quelle": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Basenji_r-w_Narva_CACIB_2014.JPG"
+  },
+  {
+   "datei": "2.jpg",
+   "autor": "Niko Herlin",
+   "lizenz": "CC BY 2.0",
+   "quelle": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/File:2008-05-01_a_Basenji_03.jpg"
+  },
+  {
+   "datei": "3.jpg",
+   "autor": "Pets Adviser from Brooklyn, USA",
+   "lizenz": "CC BY 2.0",
+   "quelle": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/File:2014_Westminster_Kennel_Club_Dog_Show_(12451625145).jpg"
+  },
+  {
+   "datei": "4.jpg",
+   "autor": "Canarian",
+   "lizenz": "CC BY-SA 4.0",
+   "quelle": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Basenji-red%26white3.jpg"
+  }
+ ],
+ "shar-pei": [
+  {
+   "datei": "1.jpg",
+   "autor": "Svenska Mässan from Sweden",
+   "lizenz": "CC BY 2.0",
+   "quelle": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/File:BIR_Grupp_2-SHAR_PEI,_Sharpuggles_Moulin_Rouge_(23605985414).jpg"
+  },
+  {
+   "datei": "2.jpg",
+   "autor": "canis-candie",
+   "lizenz": "CC BY-SA 2.5",
+   "quelle": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Henry_wikipedia.jpg"
+  },
+  {
+   "datei": "3.jpg",
+   "autor": "Flickr: M.Peinado Commons: M.Peinado",
+   "lizenz": "CC BY 2.0",
+   "quelle": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Gorda_-_100.jpg"
+  },
+  {
+   "datei": "4.jpg",
+   "autor": "Orientalpei",
+   "lizenz": "CC BY-SA 3.0",
+   "quelle": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/File:NUNA_-_orientalpei.jpg"
+  }
+ ],
+ "irischer-wolfshund": [
+  {
+   "datei": "1.jpg",
+   "autor": "Airwolfhound",
+   "lizenz": "CC BY-SA 2.0",
+   "quelle": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Drew_-_Irish_Wolfhound_(21137096806).jpg"
+  },
+  {
+   "datei": "2.jpg",
+   "autor": "Oetkepel",
+   "lizenz": "CC BY-SA 3.0",
+   "quelle": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Ierse_wolfshond_op_buiten_show.JPG"
+  },
+  {
+   "datei": "3.jpg",
+   "autor": "Canarian",
+   "lizenz": "CC BY-SA 4.0",
+   "quelle": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/File:DocFile_Irlis.jpg"
+  },
+  {
+   "datei": "4.jpg",
+   "autor": "Airwolfhound",
+   "lizenz": "CC BY-SA 2.0",
+   "quelle": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Drew_-_Irish_Wolfhound_(21129357773).jpg"
+  }
+ ],
+ "saluki": [
+  {
+   "datei": "1.jpg",
+   "autor": "Pets Adviser from Brooklyn, USA",
+   "lizenz": "CC BY 2.0",
+   "quelle": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Really_cute_dog_(8651774423).jpg"
+  },
+  {
+   "datei": "2.jpg",
+   "autor": "Pleple2000",
+   "lizenz": "CC BY-SA 3.0",
+   "quelle": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Chart_perski_f444.jpg"
+  },
+  {
+   "datei": "3.jpg",
+   "autor": "Netbios",
+   "lizenz": "CC0",
+   "quelle": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Persian_Saluki.JPG"
+  },
+  {
+   "datei": "4.jpg",
+   "autor": "Soulkeeper",
+   "lizenz": "CC BY-SA 3.0",
+   "quelle": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Malik_the_Saluki.jpg"
+  }
+ ],
+ "afghanischer-windhund": [
+  {
+   "datei": "1.jpg",
+   "autor": "Svenska Mässan from Sweden",
+   "lizenz": "CC BY 2.0",
+   "quelle": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Grupp_10,_AFGHANHUND,_C.I.B._DK_UCH_NO_V-15_NORD_UCH_US_CH_Awbari_Candy_Rain_(23683385993)_(cropped).jpg"
+  },
+  {
+   "datei": "2.jpg",
+   "autor": "Canarian",
+   "lizenz": "CC BY-SA 4.0",
+   "quelle": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Afghangold.jpg"
+  },
+  {
+   "datei": "3.jpg",
+   "autor": "Томасина",
+   "lizenz": "CC BY-SA 3.0",
+   "quelle": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Afghan_Hound_3.JPG"
+  },
+  {
+   "datei": "4.jpg",
+   "autor": "João Marcos Martins",
+   "lizenz": "CC BY-SA 3.0",
+   "quelle": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/File:312-Zoophoto.jpg"
+  }
+ ],
+ "barsoi": [
+  {
+   "datei": "1.jpg",
+   "autor": "Pleple2000",
+   "lizenz": "CC BY-SA 4.0",
+   "quelle": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Chart_rosyjski_borzoj_rybnik-kamien_pl.jpg"
+  },
+  {
+   "datei": "2.jpg",
+   "autor": "Canarian",
+   "lizenz": "CC BY-SA 4.0",
+   "quelle": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Borzoi_red_%26_white.jpg"
+  },
+  {
+   "datei": "3.jpg",
+   "autor": "Томасина",
+   "lizenz": "CC BY-SA 3.0",
+   "quelle": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Borzoy_Narva_CACIB_2014.JPG"
+  },
+  {
+   "datei": "4.jpg",
+   "autor": "Canarian",
+   "lizenz": "CC BY-SA 4.0",
+   "quelle": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Borzoi_white_%26_brindle_3.jpg"
+  }
+ ],
+ "italienisches-windspiel": [
+  {
+   "datei": "1.jpg",
+   "autor": "Grigur",
+   "lizenz": "CC BY-SA 3.0",
+   "quelle": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Italian_Greyhound_Isabella.jpg"
+  },
+  {
+   "datei": "2.jpg",
+   "autor": "Tesori di Carli",
+   "lizenz": "CC BY-SA 4.0",
+   "quelle": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Charcik_W%C5%82oski_szczeniak.jpg"
+  },
+  {
+   "datei": "3.jpg",
+   "autor": "ellevalentine",
+   "lizenz": "CC BY 2.0",
+   "quelle": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Indy_Beauty_Shoot_-_6371777749.jpg"
+  },
+  {
+   "datei": "4.jpg",
+   "autor": "Tesori di Carli",
+   "lizenz": "CC BY-SA 4.0",
+   "quelle": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/File:0000000_Charciki_W%C5%82oskie_siwy_i_czrany.jpg"
+  }
+ ],
+ "pekingese": [
+  {
+   "datei": "1.jpg",
+   "autor": "Galinf",
+   "lizenz": "CC BY-SA 3.0",
+   "quelle": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Candy_con_10_meses.jpg"
+  },
+  {
+   "datei": "2.jpg",
+   "autor": "SheltieBoy",
+   "lizenz": "CC BY 2.0",
+   "quelle": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/File:111_AKC_Pekingese_head.jpg"
+  },
+  {
+   "datei": "3.jpg",
+   "autor": "Dirk",
+   "lizenz": "CC BY 2.0",
+   "quelle": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Bailey_Pekingese.jpg"
+  },
+  {
+   "datei": "4.jpg",
+   "autor": "roger4336",
+   "lizenz": "CC BY-SA 2.0",
+   "quelle": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Annandale_-_Spencer_by_Garden_(1979).jpg"
+  }
+ ],
+ "lhasa-apso": [
+  {
+   "datei": "1.jpg",
+   "autor": "Томасина",
+   "lizenz": "CC BY-SA 3.0",
+   "quelle": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Apso_in_Tallinn_2.JPG"
+  },
+  {
+   "datei": "2.jpg",
+   "autor": "Canarian",
+   "lizenz": "CC BY 4.0",
+   "quelle": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Lhasaapso-sable1.jpg"
+  },
+  {
+   "datei": "3.jpg",
+   "autor": "Canarian",
+   "lizenz": "CC BY-SA 4.0",
+   "quelle": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Lhasa_Apso_sable.jpg"
+  },
+  {
+   "datei": "4.jpg",
+   "autor": "Canarian",
+   "lizenz": "CC BY 4.0",
+   "quelle": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Lhasaapso-sable2.jpg"
+  }
+ ],
+ "coton-de-tulear": [
+  {
+   "datei": "1.jpg",
+   "autor": "Canarian",
+   "lizenz": "CC BY-SA 4.0",
+   "quelle": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Coton_de_Tulear_2.jpg"
+  },
+  {
+   "datei": "2.jpg",
+   "autor": "Canarian",
+   "lizenz": "CC BY-SA 4.0",
+   "quelle": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Coton_de_Tulear_1.jpg"
+  },
+  {
+   "datei": "3.jpg",
+   "autor": "Jean",
+   "lizenz": "CC BY 2.0",
+   "quelle": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Coton_de_Tulear_dog.jpg"
+  },
+  {
+   "datei": "4.jpg",
+   "autor": "CamilleVila",
+   "lizenz": "CC BY-SA 3.0",
+   "quelle": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Coton_de_Tulear_193.jpg"
+  }
+ ],
+ "tibet-terrier": [
+  {
+   "datei": "1.jpg",
+   "autor": "Svenska Mässan from Sweden",
+   "lizenz": "CC BY 2.0",
+   "quelle": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/File:TIBETANSK_TERRIER,_C.I.B._DK_V-12_JWW-12_NORD_UCH_NORD_V-12_Kuai_Le_Gou%E2%80%99s_Smash_Hit_(24182687372).jpg"
+  },
+  {
+   "datei": "2.jpg",
+   "autor": "PateraIncus",
+   "lizenz": "CC BY-SA 3.0",
+   "quelle": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Tibetan_terrier.jpg"
+  },
+  {
+   "datei": "3.jpg",
+   "autor": "Mr407SW",
+   "lizenz": "Public domain",
+   "quelle": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Tibet_Terrier_Bennie.jpg"
+  },
+  {
+   "datei": "4.jpg",
+   "autor": "Томасина",
+   "lizenz": "CC BY-SA 4.0",
+   "quelle": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Tibetan_terrier_Moletai_May_2014_2.jpg"
+  }
+ ],
+ "bouvier": [
+  {
+   "datei": "1.jpg",
+   "autor": "Томасина",
+   "lizenz": "CC BY-SA 4.0",
+   "quelle": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Flandres_Moletai_May_2014.jpg"
+  },
+  {
+   "datei": "2.jpg",
+   "autor": "Yorick39",
+   "lizenz": "CC BY-SA 3.0",
+   "quelle": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Bouvier_des_Flandres036.JPG"
+  },
+  {
+   "datei": "3.jpg",
+   "autor": "Томасина",
+   "lizenz": "CC BY-SA 3.0",
+   "quelle": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Bouvier_des_Flandres_in_Riga.JPG"
+  },
+  {
+   "datei": "4.jpg",
+   "autor": "Canarian",
+   "lizenz": "CC BY 4.0",
+   "quelle": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Flanderscattle3.jpg"
+  }
+ ],
+ "puli": [
+  {
+   "datei": "1.jpg",
+   "autor": "Anita Ritenour",
+   "lizenz": "CC BY 2.0",
+   "quelle": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Monumental_Puli.jpg"
+  },
+  {
+   "datei": "2.jpg",
+   "autor": "Anita Ritenour",
+   "lizenz": "CC BY 2.0",
+   "quelle": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Beach_Puli.jpg"
+  },
+  {
+   "datei": "3.jpg",
+   "autor": "Anita Ritenour",
+   "lizenz": "CC BY 2.0",
+   "quelle": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Puli_duo_on_the_Oregon_Coast.jpg"
+  },
+  {
+   "datei": "4.jpg",
+   "autor": "Томасина",
+   "lizenz": "CC BY-SA 3.0",
+   "quelle": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Puli_in_Riga_2.JPG"
+  }
+ ],
+ "groenendael": [
+  {
+   "datei": "1.jpg",
+   "autor": "Томасина",
+   "lizenz": "CC BY-SA 4.0",
+   "quelle": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Groen_Moletai_May_2014.jpg"
+  },
+  {
+   "datei": "2.jpg",
+   "autor": "Svenska Mässan from Sweden",
+   "lizenz": "CC BY 2.0",
+   "quelle": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Grupp_1,_BELGISK_VALLHUND-_GROENENDAEL,_NO_UCH_NO_V-14_SE_VCH_Mission_Impossible_Av_Vikholmen_(23664806343).jpg"
+  },
+  {
+   "datei": "3.jpg",
+   "autor": "Jpiularch",
+   "lizenz": "CC BY-SA 4.0",
+   "quelle": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/File:I%C2%B4Ker_de_R.Brown.jpg"
+  },
+  {
+   "datei": "4.jpg",
+   "autor": "Canarian",
+   "lizenz": "CC BY-SA 4.0",
+   "quelle": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Belgian_Groenendael_2.jpg"
+  }
+ ],
+ "papillon": [
+  {
+   "datei": "1.jpg",
+   "autor": "Kettu812",
+   "lizenz": "CC BY-SA 4.0",
+   "quelle": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Papillon_-_Sunshine_Paws_Attention.jpg"
+  },
+  {
+   "datei": "2.jpg",
+   "autor": "Pets Adviser from Brooklyn, USA",
+   "lizenz": "CC BY 2.0",
+   "quelle": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Papillon_-_GCH_Involo_The_King_Of_Pop_1_(15980195424).jpg"
+  },
+  {
+   "datei": "3.jpg",
+   "autor": "Peter Trimming from Croydon, England",
+   "lizenz": "CC BY 2.0",
+   "quelle": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/File:%22When_do_I_get_to_ride_on_the_train%3F%22_(8724024958).jpg"
+  },
+  {
+   "datei": "4.jpg",
+   "autor": "unbekannt",
+   "lizenz": "CC BY-SA 3.0",
+   "quelle": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Kontinentaler_Zwergspaniel_vor_Brennnesseln.jpg"
+  }
  ]
 };

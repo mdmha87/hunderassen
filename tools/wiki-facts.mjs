@@ -1,10 +1,11 @@
 // Holt zu jeder Rasse den deutschen Wikipedia-Artikel (Einleitung + Infobox-Felder),
-// um Texte und Links zu prüfen. Ausgabe: tools/out/wiki-facts.json
+// um Texte und Links zu prüfen. Aufruf: node tools/wiki-facts.mjs <stufe>  Ausgabe: tools/out/wiki-facts-<stufe>.json
 import fs from "node:fs";
 import path from "node:path";
 import { ROOT, loadRassen, getJson } from "./lib.mjs";
 
-const { rassen } = loadRassen();
+const stufe = Number(process.argv[2]) || 1;
+const rassen = loadRassen().rassen.filter(r => r.stufe === stufe);
 const out = [];
 
 for (const r of rassen) {
@@ -30,5 +31,5 @@ for (const r of rassen) {
 }
 
 fs.mkdirSync(path.join(ROOT, "tools/out"), { recursive: true });
-fs.writeFileSync(path.join(ROOT, "tools/out/wiki-facts.json"), JSON.stringify(out, null, 1));
+fs.writeFileSync(path.join(ROOT, `tools/out/wiki-facts-${stufe}.json`), JSON.stringify(out, null, 1));
 for (const e of out) console.log(e.missing ? "FEHLT " : e.redirectTo ? "REDIR " : "ok    ", e.id, e.redirectTo ? "-> " + e.redirectTo : "");

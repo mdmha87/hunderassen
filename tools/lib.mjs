@@ -9,7 +9,9 @@ export const UA = "HunderassenLernApp/1.0 (private Lern-App; mdmha87 on GitHub)"
 
 export function loadRassen() {
   const ctx = { window: {} };
-  vm.runInNewContext(fs.readFileSync(path.join(ROOT, "data/rassen.js"), "utf8"), ctx);
+  for (const f of ["data/rassen.js", "data/rassen-2.js"]) {
+    vm.runInNewContext(fs.readFileSync(path.join(ROOT, f), "utf8"), ctx);
+  }
   return { rassen: ctx.window.RASSEN, gruppen: ctx.window.FCI_GRUPPEN };
 }
 

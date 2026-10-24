@@ -50,3 +50,45 @@ Stand: 18.10.2026
 - **Ergebnis:** 199 Bilder für 50 Rassen (4 pro Rasse, beim Malteser 3), zusammen etwa 19 MB. Lizenzen: CC BY-SA (129), CC BY (50), CC0 (11), gemeinfrei (9).
 - **Kontrolle:** Das erste Bild jeder Rasse wurde nach dem Verkleinern noch einmal in einer Gesamtübersicht geprüft. Alle zeigen die richtige Rasse.
 - **Format:** JPEG, höchstens 800 px breit.
+
+---
+
+# Stufe 2 (Fortgeschritten): 51 weitere Rassen
+
+Stand: 24.10.2026. Die Daten stehen in [data/rassen-2.js](data/rassen-2.js).
+
+## Texte
+
+Geprüft wurde wie bei Stufe 1, also mit Wikipedia-Einleitung und Infobox (`node tools/wiki-facts.mjs 2`).
+
+**FCI-Gruppen:** Alle 51 stimmen.
+
+**Korrigiert:**
+
+| Rasse | Vorher | Nachher | Grund |
+|---|---|---|---|
+| Basenji | Größe: klein | mittel | Rüden erreichen etwa 43 cm. |
+| Puli | „kam vor über 1000 Jahren mit den Magyaren“ | „Vorfahren vermutlich mit den Magyaren“ | Ist nicht sicher belegt. |
+| Irischer Wolfshund | „größte Hunderasse der Welt“ | „gehört zu den größten …, Rüden mindestens 79 cm“ | Die absolute Aussage ist umstritten, die Mindestgröße steht im Standard. |
+| Afghanischer Windhund | „jagte … Leoparden“ | „Gazellen, Hasen und anderes Wild“ | Nicht belegbar. |
+| Bobtail | „bekannt aus der Werbung für Wandfarbe“ | gestrichen | Bezieht sich auf britische Werbung und ist für Deutschland nicht relevant. |
+| Basset Hound | „wiegt bis etwa 35 kg“ | ohne Zahl | Der Standard nennt kein Gewicht. |
+
+**Bewusst so belassen:** Bei Groenendael und Malinois ist der Wikipedia-Link derselbe („Belgischer Schäferhund“), weil beide Schläge einer Rasse sind. Dasselbe gilt für Riesen- und Mittelschnauzer („Schnauzer“).
+
+## Links
+
+7 Links wurden korrigiert:
+- 3 zeigten auf Begriffsklärungen: Eurasier, Bloodhound und Mastiff, jeweils jetzt „… (Hunderasse)“.
+- 4 zeigten auf Weiterleitungen und zeigen jetzt direkt auf den Zielartikel: English Pointer, Dogue de Bordeaux, Pekingese und Grosser Schweizer Sennenhund.
+
+## Bilder
+
+- 204 Bilder, 4 pro Rasse.
+- Gesucht wurde zuerst über die Wikidata-Angabe „zeigt diese Rasse“, danach in der Commons-Kategorie.
+- Bei Groenendael, Puli, Pointer und Papillon stimmten die ersten Treffer nicht: Malinois-Fotos, ein Bildhauer-Denkmal, Schmetterlinge und Shih Tzus. Für diese vier wurde in der richtigen Kategorie neu gesucht.
+- Das erste Bild jeder Rasse wurde nach dem Verkleinern in einer Gesamtübersicht kontrolliert. Alle zeigen die richtige Rasse.
+
+## Ähnliche Rassen
+
+Bei 24 Basis-Rassen wurden die Verwechslungslisten um ähnliche Rassen aus Stufe 2 ergänzt, zum Beispiel Golden Retriever → Nova Scotia Duck Tolling Retriever und Flat Coated Retriever. Sie werden nur abgefragt, wenn der Umfang „Fortgeschritten“ gewählt ist.

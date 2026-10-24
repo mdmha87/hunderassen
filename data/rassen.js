@@ -45,7 +45,7 @@ window.RASSEN = [
       "Erkennbar am kurzen, dichten Fell, dem breiten Kopf und dem kräftigen, an der Basis dicken „Otterschwanz“.",
       "Es gibt ihn in drei Farben: Schwarz, Gelb und Braun (Schokolade)."
     ],
-    verwechslung: ["golden-retriever", "rhodesian-ridgeback"],
+    verwechslung: ["golden-retriever", "rhodesian-ridgeback", "flat-coated-retriever"],
     link: "https://de.wikipedia.org/wiki/Labrador_Retriever",
     bilder: []
   },
@@ -60,7 +60,7 @@ window.RASSEN = [
       "Erkennbar am mittellangen, gewellten oder glatten Fell in Creme- bis Goldtönen mit Befederung an Brust, Beinen und Rute.",
       "Im Unterschied zum Labrador hat er deutlich längeres Fell und eine buschige Rute."
     ],
-    verwechslung: ["labrador-retriever", "leonberger", "hovawart"],
+    verwechslung: ["labrador-retriever", "leonberger", "hovawart", "nova-scotia-duck-tolling-retriever", "flat-coated-retriever"],
     link: "https://de.wikipedia.org/wiki/Golden_Retriever",
     bilder: []
   },
@@ -90,7 +90,7 @@ window.RASSEN = [
       "Erkennbar an den großen, aufrechten „Fledermausohren“, dem kompakten muskulösen Körper und der kurzen Schnauze.",
       "Die stark verkürzte Nase kann zu Atemproblemen führen, worauf bei der Zucht zunehmend geachtet wird."
     ],
-    verwechslung: ["mops", "englische-bulldogge", "boxer"],
+    verwechslung: ["mops", "englische-bulldogge", "boxer", "boston-terrier"],
     link: "https://de.wikipedia.org/wiki/Französische_Bulldogge",
     bilder: []
   },
@@ -120,7 +120,7 @@ window.RASSEN = [
       "Erkennbar an der häufigen Merle-Färbung (blau- oder rot-marmoriert), oft hellen oder zweifarbigen Augen und mittellangem Fell.",
       "Viele Aussies werden mit natürlicher Stummelrute geboren."
     ],
-    verwechslung: ["border-collie", "shetland-sheepdog"],
+    verwechslung: ["border-collie", "shetland-sheepdog", "australian-cattle-dog"],
     link: "https://de.wikipedia.org/wiki/Australian_Shepherd",
     bilder: []
   },
@@ -150,7 +150,7 @@ window.RASSEN = [
       "Erkennbar am überwiegend weißen Fell mit braunen oder schwarzen Abzeichen und den nach vorn kippenden Ohren.",
       "Die Rasse entstand in England, den heutigen FCI-Standard betreut jedoch Australien. Das Fell kann glatt, rau oder eine Mischform („broken“) sein."
     ],
-    verwechslung: ["west-highland-white-terrier", "bullterrier"],
+    verwechslung: ["west-highland-white-terrier", "bullterrier", "parson-russell-terrier"],
     link: "https://de.wikipedia.org/wiki/Jack_Russell_Terrier",
     bilder: []
   },
@@ -180,7 +180,7 @@ window.RASSEN = [
       "Erkennbar am faltigen, runden Kopf mit sehr kurzer Schnauze, dunkler Maske und der doppelt geringelten Rute.",
       "Typische Farben sind Beige (Silber oder Apricot) mit schwarzer Maske oder ganz Schwarz."
     ],
-    verwechslung: ["franzoesische-bulldogge", "englische-bulldogge"],
+    verwechslung: ["franzoesische-bulldogge", "englische-bulldogge", "pekingese"],
     link: "https://de.wikipedia.org/wiki/Mops",
     bilder: []
   },
@@ -195,7 +195,7 @@ window.RASSEN = [
       "Erkennbar am langen, dreifarbigen Fell: Schwarz mit rotbraunen Abzeichen und weißer Brust sowie weißer Blesse.",
       "Er ist der einzige langhaarige der vier Schweizer Sennenhunde."
     ],
-    verwechslung: ["bernhardiner", "hovawart"],
+    verwechslung: ["bernhardiner", "hovawart", "grosser-schweizer-sennenhund", "entlebucher-sennenhund"],
     link: "https://de.wikipedia.org/wiki/Berner_Sennenhund",
     bilder: []
   },
@@ -210,7 +210,7 @@ window.RASSEN = [
       "Erkennbar am kantigen Kopf mit kurzer, breiter Schnauze, leichtem Vorbiss und dem athletischen, quadratischen Körperbau.",
       "Das kurze Fell ist gelb oder gestromt, oft mit weißen Abzeichen und schwarzer Maske."
     ],
-    verwechslung: ["englische-bulldogge", "deutsche-dogge", "rhodesian-ridgeback"],
+    verwechslung: ["englische-bulldogge", "deutsche-dogge", "rhodesian-ridgeback", "bordeauxdogge", "staffordshire-bullterrier"],
     link: "https://de.wikipedia.org/wiki/Deutscher_Boxer",
     bilder: []
   },
@@ -240,7 +240,7 @@ window.RASSEN = [
       "Erkennbar am eleganten, schlanken und muskulösen Körper und dem kurzen schwarzen oder braunen Fell mit rostroten Abzeichen.",
       "Im Vergleich zum Rottweiler ist er deutlich schlanker und hochbeiniger."
     ],
-    verwechslung: ["rottweiler", "deutsche-dogge"],
+    verwechslung: ["rottweiler", "deutsche-dogge", "deutscher-pinscher"],
     link: "https://de.wikipedia.org/wiki/Dobermann",
     bilder: []
   },
@@ -270,7 +270,7 @@ window.RASSEN = [
       "Erkennbar an den langen Schlappohren, dem dreifarbigen Kurzhaar (Weiß, Schwarz, Braun) und der stets weißen Rutenspitze.",
       "Seine Stimme ist ein typisches, lautes Geläut."
     ],
-    verwechslung: ["jack-russell-terrier", "dackel"],
+    verwechslung: ["jack-russell-terrier", "dackel", "basset-hound"],
     link: "https://de.wikipedia.org/wiki/Beagle_(Hunderasse)",
     bilder: []
   },
@@ -300,7 +300,7 @@ window.RASSEN = [
       "Erkennbar am langen, seidigen, reinweißen Fell ohne Unterwolle und den dunklen Augen und Nase.",
       "Im Unterschied zum Bichon Frisé ist das Fell glatt statt lockig."
     ],
-    verwechslung: ["bichon-frise", "havaneser", "shih-tzu"],
+    verwechslung: ["bichon-frise", "havaneser", "shih-tzu", "coton-de-tulear"],
     link: "https://de.wikipedia.org/wiki/Malteser_(Hunderasse)",
     bilder: []
   },
@@ -315,7 +315,7 @@ window.RASSEN = [
       "Erkennbar am langen, weichen und leicht gewellten Fell, das in vielen Farben vorkommt, und der über den Rücken getragenen Rute.",
       "Gehört zur Familie der Bichons, wie Malteser und Bichon Frisé."
     ],
-    verwechslung: ["malteser", "bichon-frise", "shih-tzu"],
+    verwechslung: ["malteser", "bichon-frise", "shih-tzu", "coton-de-tulear", "tibet-terrier"],
     link: "https://de.wikipedia.org/wiki/Havaneser",
     bilder: []
   },
@@ -330,7 +330,7 @@ window.RASSEN = [
       "Erkennbar am sehr langen, dichten Fell, das im Gesicht wie eine Chrysantheme wächst, und der kurzen Schnauze.",
       "Oft wird das Kopfhaar zu einem Zopf hochgebunden."
     ],
-    verwechslung: ["havaneser", "malteser", "yorkshire-terrier"],
+    verwechslung: ["havaneser", "malteser", "yorkshire-terrier", "lhasa-apso", "pekingese"],
     link: "https://de.wikipedia.org/wiki/Shih_Tzu",
     bilder: []
   },
@@ -375,7 +375,7 @@ window.RASSEN = [
       "Erkennbar am harten, drahtigen Fell mit ausgeprägtem Bart und buschigen Augenbrauen, meist braun-schimmel.",
       "Das wetterfeste Fell schützt ihn bei der Arbeit im Dickicht und im kalten Wasser."
     ],
-    verwechslung: ["magyar-vizsla", "weimaraner"],
+    verwechslung: ["magyar-vizsla", "weimaraner", "deutsch-kurzhaar"],
     link: "https://de.wikipedia.org/wiki/Deutsch_Drahthaar",
     bilder: []
   },
@@ -390,7 +390,7 @@ window.RASSEN = [
       "Erkennbar am einfarbig silber-, reh- oder mausgrauen Fell und den hellen, bernsteinfarbenen Augen (bei Welpen himmelblau).",
       "Neben dem verbreiteten Kurzhaar gibt es auch eine Langhaar-Variante."
     ],
-    verwechslung: ["magyar-vizsla", "dobermann", "deutsche-dogge"],
+    verwechslung: ["magyar-vizsla", "dobermann", "deutsche-dogge", "deutsch-kurzhaar"],
     link: "https://de.wikipedia.org/wiki/Weimaraner",
     bilder: []
   },
@@ -435,7 +435,7 @@ window.RASSEN = [
       "Erkennbar an den langen, tief angesetzten und stark befederten Schlappohren und dem seidigen Fell.",
       "Häufige Farben sind Rot, Schwarz und verschiedene Schimmel."
     ],
-    verwechslung: ["cavalier-king-charles-spaniel", "golden-retriever"],
+    verwechslung: ["cavalier-king-charles-spaniel", "golden-retriever", "springer-spaniel"],
     link: "https://de.wikipedia.org/wiki/English_Cocker_Spaniel",
     bilder: []
   },
@@ -450,7 +450,7 @@ window.RASSEN = [
       "Erkennbar am reinweißen, harten Fell, dem rundlich getrimmten Kopf und den kleinen spitzen Stehohren.",
       "Das weiße Fell sollte verhindern, dass er bei der Jagd mit dem Fuchs verwechselt wird."
     ],
-    verwechslung: ["malteser", "bichon-frise", "jack-russell-terrier"],
+    verwechslung: ["malteser", "bichon-frise", "jack-russell-terrier", "cairn-terrier"],
     link: "https://de.wikipedia.org/wiki/West_Highland_White_Terrier",
     bilder: []
   },
@@ -495,7 +495,7 @@ window.RASSEN = [
       "Erkennbar am kurzen, falbfarbenen (rehbraunen) Fell mit schwarzer Maske und schwarzen Ohren.",
       "Er ist leichter und quadratischer gebaut als der Deutsche Schäferhund."
     ],
-    verwechslung: ["deutscher-schaeferhund"],
+    verwechslung: ["deutscher-schaeferhund", "groenendael"],
     link: "https://de.wikipedia.org/wiki/Belgischer_Schäferhund",
     bilder: []
   },
@@ -540,7 +540,7 @@ window.RASSEN = [
       "Erkennbar an der enormen Größe, dem eleganten Körperbau und dem langen, kantigen Kopf.",
       "Farben sind unter anderem Gelb, Gestromt, Schwarz, Blau und Gefleckt (Harlekin)."
     ],
-    verwechslung: ["boxer", "dobermann", "dalmatiner"],
+    verwechslung: ["boxer", "dobermann", "dalmatiner", "mastiff", "irischer-wolfshund"],
     link: "https://de.wikipedia.org/wiki/Deutsche_Dogge",
     bilder: []
   },
@@ -645,7 +645,7 @@ window.RASSEN = [
       "Erkennbar am kantigen Kopf mit Bart und buschigen Augenbrauen und dem harten, drahtigen Fell.",
       "Farben sind Pfeffer-Salz, Schwarz, Schwarz-Silber und Weiß."
     ],
-    verwechslung: ["west-highland-white-terrier", "yorkshire-terrier"],
+    verwechslung: ["west-highland-white-terrier", "yorkshire-terrier", "mittelschnauzer", "scottish-terrier"],
     link: "https://de.wikipedia.org/wiki/Schnauzer",
     bilder: []
   },
@@ -660,7 +660,7 @@ window.RASSEN = [
       "Erkennbar am kräftigen Körper, dem breiten Kopf mit kleinen dreieckigen Stehohren und der über den Rücken geringelten Rute.",
       "Berühmt ist der Akita Hachikō, der jahrelang am Bahnhof auf sein verstorbenes Herrchen wartete."
     ],
-    verwechslung: ["shiba-inu", "siberian-husky"],
+    verwechslung: ["shiba-inu", "siberian-husky", "eurasier"],
     link: "https://de.wikipedia.org/wiki/Akita_(Hunderasse)",
     bilder: []
   },
@@ -720,7 +720,7 @@ window.RASSEN = [
       "Erkennbar am schlanken, muskulösen Körper mit tiefer Brust, schmaler Taille und dem kurzen, feinen Fell.",
       "Er sieht aus wie ein kleiner Greyhound."
     ],
-    verwechslung: ["greyhound"],
+    verwechslung: ["greyhound", "italienisches-windspiel"],
     link: "https://de.wikipedia.org/wiki/Whippet_(Hunderasse)",
     bilder: []
   },
@@ -735,7 +735,7 @@ window.RASSEN = [
       "Erkennbar am hohen, sehr schlanken Körper mit tiefer Brust, langem schmalem Kopf und zurückgelegten Rosenohren.",
       "Ausgemusterte Rennhunde werden oft über Tierschutzvereine vermittelt."
     ],
-    verwechslung: ["whippet", "dobermann"],
+    verwechslung: ["whippet", "dobermann", "saluki"],
     link: "https://de.wikipedia.org/wiki/Greyhound_(Hunderasse)",
     bilder: []
   },
@@ -765,7 +765,7 @@ window.RASSEN = [
       "Unverwechselbar durch den eiförmigen Kopf ohne Stirnabsatz und die kleinen, dreieckigen Augen.",
       "Häufig ist er weiß, es gibt ihn aber auch farbig; zusätzlich gibt es eine Miniatur-Variante."
     ],
-    verwechslung: ["dalmatiner", "jack-russell-terrier", "boxer"],
+    verwechslung: ["dalmatiner", "jack-russell-terrier", "boxer", "staffordshire-bullterrier"],
     link: "https://de.wikipedia.org/wiki/Bullterrier",
     bilder: []
   }
