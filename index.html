@@ -46,6 +46,13 @@
             <button type="button" data-value="0">Endlos</button>
           </div>
         </fieldset>
+        <fieldset id="fs-vorlesen">
+          <legend>Rassenname vorlesen</legend>
+          <div class="seg" id="opt-vorlesen">
+            <button type="button" data-value="aus">Nur auf Tipp</button>
+            <button type="button" data-value="auto">Automatisch</button>
+          </div>
+        </fieldset>
       </div>
 
       <button type="button" class="btn primary big" id="btn-start">Los geht's</button>
@@ -68,7 +75,10 @@
       <div class="answers" id="answers"></div>
 
       <div class="feedback" id="feedback" hidden>
-        <div class="feedback-text" id="feedback-text"></div>
+        <div class="feedback-head">
+          <div class="feedback-text" id="feedback-text"></div>
+          <button type="button" class="icon-btn speak" id="btn-speak" aria-label="Rassenname vorlesen">🔊</button>
+        </div>
         <div class="feedback-actions">
           <button type="button" class="btn secondary" id="btn-info">ℹ Info</button>
           <button type="button" class="btn primary" id="btn-next">Weiter →</button>
@@ -111,7 +121,11 @@
     <div class="sheet-inner">
       <button type="button" class="icon-btn sheet-close" id="btn-info-close" aria-label="Schließen">✕</button>
       <div class="gallery" id="info-gallery"></div>
-      <h2 id="info-name"></h2>
+      <div class="info-head">
+        <h2 id="info-name"></h2>
+        <button type="button" class="icon-btn speak" id="btn-info-speak" aria-label="Rassenname vorlesen">🔊</button>
+      </div>
+      <p class="aka" id="info-aka"></p>
       <div class="chips" id="info-chips"></div>
       <ul class="facts" id="info-facts"></ul>
       <p class="lookalikes" id="info-lookalikes"></p>

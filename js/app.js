@@ -25,7 +25,7 @@
   const store = load();
 
   function load() {
-    const fallback = { settings: { stufe: 1, schwierigkeit: "mittel", runde: 10 }, progress: {} };
+    const fallback = { settings: { stufe: 1, schwierigkeit: "mittel", runde: 10, vorlesen: "aus" }, progress: {} };
     try {
       const raw = localStorage.getItem(STORE_KEY);
       if (!raw) return fallback;
@@ -75,6 +75,30 @@
     return `Foto: ${bild.autor} · ${bild.lizenz} · ${bild.quelle}`;
   }
 
+  // ---------- Vorlesen (Sprachausgabe des Geräts) ----------
+  const speech = "speechSynthesis" in window ? window.speechSynthesis : null;
+  let voices = [];
+  function loadVoices() { voices = speech ? speech.getVoices() : []; }
+  if (speech) { loadVoices(); speech.addEventListener?.("voiceschanged", loadVoices); }
+  const findVoice = lang => voices.find(v => v.lang.replace("_", "-").toLowerCase().startsWith(lang));
+
+  // Englische Namen mit englischer Stimme, sonst Deutsch (mit Lautschrift, falls hinterlegt).
+  function speak(r, button) {
+    if (!speech) return;
+    speech.cancel();
+    const en = r.sprache === "en" && findVoice("en");
+    const u = new SpeechSynthesisUtterance(en ? r.name : (r.aussprache || r.name));
+    u.lang = en ? en.lang : "de-DE";
+    const voice = en || findVoice("de");
+    if (voice) u.voice = voice;
+    u.rate = 0.9;
+    if (button) {
+      button.classList.add("on");
+      u.onend = u.onerror = () => button.classList.remove("on");
+    }
+    speech.speak(u);
+  }
+
   function pool() {
     return RASSEN.filter(r => r.stufe <= store.settings.stufe);
   }
@@ -96,6 +120,8 @@
     markSeg("opt-stufe", store.settings.stufe);
     markSeg("opt-schwierigkeit", store.settings.schwierigkeit);
     markSeg("opt-runde", store.settings.runde);
+    markSeg("opt-vorlesen", store.settings.vorlesen);
+    $("fs-vorlesen").hidden = !speech;
     $("hint-schwierigkeit").textContent = HINTS[store.settings.schwierigkeit];
   }
   function markSeg(id, value) {
@@ -182,6 +208,7 @@
 
   function nextQuestion() {
     clearTimeout(autoTimer);
+    speech?.cancel();
     if (round.total && round.index >= round.total) return endRound();
 
     const target = nextBreed(round.candidates, round.recent);
@@ -231,15 +258,18 @@
     fb.className = "feedback-text " + (ok ? "ok" : "bad");
     fb.textContent = ok ? `✓ Richtig – ${target.name}` : `✗ Richtig wäre: ${target.name}`;
     $("photo").classList.add("revealed");
+    if (store.settings.vorlesen === "auto") speak(target, $("btn-speak"));
     $("feedback").hidden = false;
     $("counter").textContent = round.total ? `${round.index}/${round.total}` : `${round.score}/${round.index}`;
     $("progress-bar").style.width = round.total ? `${(round.index / round.total) * 100}%` : "0";
 
     if (ok) {
       const bar = $("autonext");
-      bar.style.setProperty("--autonext-ms", AUTONEXT_MS + "ms");
+      // Beim automatischen Vorlesen etwas länger warten, damit der Name nicht abgeschnitten wird.
+      const ms = store.settings.vorlesen === "auto" && speech ? AUTONEXT_MS + 1200 : AUTONEXT_MS;
+      bar.style.setProperty("--autonext-ms", ms + "ms");
       requestAnimationFrame(() => requestAnimationFrame(() => bar.classList.add("run")));
-      autoTimer = setTimeout(nextQuestion, AUTONEXT_MS);
+      autoTimer = setTimeout(nextQuestion, ms);
     }
   }
 
@@ -287,6 +317,8 @@
 
   function openInfo(r) {
     $("info-name").textContent = r.name;
+    $("info-aka").textContent = r.auch?.length ? "Auch: " + r.auch.join(", ") : "";
+    $("btn-info-speak").onclick = e => speak(r, e.currentTarget);
     $("info-gallery").replaceChildren(...r.bilder.map(b => el("img", { src: imgSrc(r, b), alt: r.name, loading: "lazy" })));
     $("info-chips").replaceChildren(
       el("span", { className: "chip", textContent: "📍 " + r.herkunft }),
@@ -305,6 +337,7 @@
   bindSeg("opt-stufe", "stufe", Number);
   bindSeg("opt-schwierigkeit", "schwierigkeit");
   bindSeg("opt-runde", "runde", Number);
+  bindSeg("opt-vorlesen", "vorlesen");
 
   $("btn-start").onclick = startRound;
   $("btn-again").onclick = startRound;
@@ -316,6 +349,8 @@
     if (round.done) endRound(); else showScreen("start");
   };
   $("btn-next").onclick = nextQuestion;
+  $("btn-speak").onclick = e => { stopAuto(); speak(round.current.target, e.currentTarget); };
+  if (!speech) { $("btn-speak").hidden = true; $("btn-info-speak").hidden = true; }
   $("btn-info").onclick = () => { stopAuto(); openInfo(round.current.target); };
   $("btn-info-close").onclick = () => $("info-dialog").close();
   $("info-dialog").addEventListener("click", e => { if (e.target === e.currentTarget) e.currentTarget.close(); });

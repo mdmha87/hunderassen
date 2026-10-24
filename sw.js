@@ -1,5 +1,5 @@
 // Offline-Cache. VERSION bei jeder Änderung an App-Dateien oder Bildern erhöhen.
-const VERSION = "v2";
+const VERSION = "v3";
 const CACHE = "hunderassen-" + VERSION;
 const SHELL = [
   "./",

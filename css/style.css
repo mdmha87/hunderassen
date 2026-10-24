@@ -143,7 +143,14 @@ legend { font-weight: 600; font-size: .85rem; color: var(--muted); text-transfor
   background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius);
   padding: 14px 16px; box-shadow: var(--shadow); position: relative; overflow: hidden;
 }
-.feedback-text { font-weight: 600; margin-bottom: 10px; }
+.feedback-head { display: flex; align-items: center; gap: 10px; margin-bottom: 10px; }
+.feedback-text { font-weight: 600; flex: 1; }
+.info-head { display: flex; align-items: center; gap: 10px; padding-right: 48px; }
+.info-head h2 { padding-right: 0; flex: 1; }
+.aka { margin: -6px 0 0; color: var(--muted); font-size: .92rem; }
+.aka:empty { display: none; }
+.icon-btn.speak { background: var(--accent-soft); }
+.icon-btn.speak.on { background: var(--accent); }
 .feedback-text.ok { color: var(--ok); }
 .feedback-text.bad { color: var(--bad); }
 .feedback-actions { display: flex; gap: 10px; }

@@ -1,7 +1,9 @@
 // Rassendaten. Wird als Skript geladen (nicht per fetch), damit die App auch direkt als Datei läuft.
 // stufe: 1 = Basis, 2 = Fortgeschritten, 3 = Experte
 // fci: FCI-Gruppe (1–10), groesse: klein | mittel | gross | sehr-gross
-// bilder: [{ datei, autor, lizenz, quelle }] – Dateien liegen unter img/rassen/<id>/
+// auch: alternative Namen/Kurzbezeichnungen; sprache: "en" = Name wird mit englischer Stimme vorgelesen;
+// aussprache: Lautschrift für die deutsche Stimme, falls der Name sonst falsch vorgelesen wird
+// Bilder stehen in data/bilder.js (erzeugt von tools/apply-images.mjs)
 
 window.FCI_GRUPPEN = {
   1: "Hüte- und Treibhunde",
@@ -20,6 +22,7 @@ window.RASSEN = [
   {
     id: "deutscher-schaeferhund",
     name: "Deutscher Schäferhund",
+    auch: ["Schäferhund","DSH"],
     stufe: 1, fci: 1, herkunft: "Deutschland", groesse: "gross",
     info: [
       "Ende des 19. Jahrhunderts von Max von Stephanitz als vielseitiger Hüte- und Gebrauchshund gezüchtet.",
@@ -34,6 +37,7 @@ window.RASSEN = [
   {
     id: "labrador-retriever",
     name: "Labrador Retriever",
+    auch: ["Labrador","Labbi"], sprache: "en",
     stufe: 1, fci: 8, herkunft: "Großbritannien", groesse: "gross",
     info: [
       "Seine Vorfahren stammen aus Neufundland, die eigentliche Rasse wurde im 19. Jahrhundert in England zum Apportieren von Wild gezüchtet.",
@@ -48,6 +52,7 @@ window.RASSEN = [
   {
     id: "golden-retriever",
     name: "Golden Retriever",
+    auch: ["Golden"], sprache: "en",
     stufe: 1, fci: 8, herkunft: "Großbritannien", groesse: "gross",
     info: [
       "Im 19. Jahrhundert in Schottland als Apportierhund für die Jagd auf Wasserwild gezüchtet.",
@@ -61,7 +66,8 @@ window.RASSEN = [
   },
   {
     id: "dackel",
-    name: "Dackel (Dachshund)",
+    name: "Dackel",
+    auch: ["Dachshund","Teckel"],
     stufe: 1, fci: 4, herkunft: "Deutschland", groesse: "klein",
     info: [
       "Ursprünglich für die Jagd unter der Erde gezüchtet, vor allem auf Dachs und Fuchs – daher der Name Dachshund.",
@@ -76,6 +82,7 @@ window.RASSEN = [
   {
     id: "franzoesische-bulldogge",
     name: "Französische Bulldogge",
+    auch: ["Frenchie","Bully"],
     stufe: 1, fci: 9, herkunft: "Frankreich", groesse: "klein",
     info: [
       "Im 19. Jahrhundert in Paris aus kleinen englischen Bulldoggen entstanden und schnell als Begleithund beliebt geworden.",
@@ -90,6 +97,7 @@ window.RASSEN = [
   {
     id: "border-collie",
     name: "Border Collie",
+    auch: ["Border"], sprache: "en",
     stufe: 1, fci: 1, herkunft: "Großbritannien", groesse: "mittel",
     info: [
       "Stammt aus dem Grenzgebiet zwischen Schottland und England und wurde rein auf Hüteleistung bei Schafen gezüchtet.",
@@ -104,6 +112,7 @@ window.RASSEN = [
   {
     id: "australian-shepherd",
     name: "Australian Shepherd",
+    auch: ["Aussie"], sprache: "en",
     stufe: 1, fci: 1, herkunft: "USA", groesse: "mittel",
     info: [
       "Trotz des Namens wurde er in den USA als Hütehund auf Ranches entwickelt.",
@@ -118,6 +127,7 @@ window.RASSEN = [
   {
     id: "chihuahua",
     name: "Chihuahua",
+    auch: ["Chi"], aussprache: "Tschiwawa",
     stufe: 1, fci: 9, herkunft: "Mexiko", groesse: "klein",
     info: [
       "Benannt nach dem mexikanischen Bundesstaat Chihuahua und gilt als kleinste Hunderasse der Welt.",
@@ -132,6 +142,7 @@ window.RASSEN = [
   {
     id: "jack-russell-terrier",
     name: "Jack Russell Terrier",
+    auch: ["Jack Russell","JRT"], sprache: "en",
     stufe: 1, fci: 3, herkunft: "Großbritannien / Australien", groesse: "klein",
     info: [
       "Benannt nach dem englischen Pfarrer John „Jack“ Russell, der im 19. Jahrhundert Terrier für die Fuchsjagd züchtete.",
@@ -146,6 +157,7 @@ window.RASSEN = [
   {
     id: "yorkshire-terrier",
     name: "Yorkshire Terrier",
+    auch: ["Yorkie"], sprache: "en",
     stufe: 1, fci: 3, herkunft: "Großbritannien", groesse: "klein",
     info: [
       "Im 19. Jahrhundert in Nordengland (Yorkshire) ursprünglich zur Rattenjagd gezüchtet.",
@@ -160,6 +172,7 @@ window.RASSEN = [
   {
     id: "mops",
     name: "Mops",
+    auch: ["Pug"],
     stufe: 1, fci: 9, herkunft: "China", groesse: "klein",
     info: [
       "Eine sehr alte Rasse aus China, die über holländische Händler im 16. Jahrhundert nach Europa kam.",
@@ -174,6 +187,7 @@ window.RASSEN = [
   {
     id: "berner-sennenhund",
     name: "Berner Sennenhund",
+    auch: ["Berner"],
     stufe: 1, fci: 2, herkunft: "Schweiz", groesse: "gross",
     info: [
       "Stammt aus dem Kanton Bern, wo er als Hof-, Wach- und Zughund (z. B. für Milchkarren) eingesetzt wurde.",
@@ -188,6 +202,7 @@ window.RASSEN = [
   {
     id: "boxer",
     name: "Boxer",
+    auch: ["Deutscher Boxer"],
     stufe: 1, fci: 2, herkunft: "Deutschland", groesse: "gross",
     info: [
       "Ende des 19. Jahrhunderts in München aus dem Bullenbeißer und englischen Bulldoggen gezüchtet.",
@@ -202,6 +217,7 @@ window.RASSEN = [
   {
     id: "rottweiler",
     name: "Rottweiler",
+    auch: ["Rotti"],
     stufe: 1, fci: 2, herkunft: "Deutschland", groesse: "gross",
     info: [
       "Benannt nach der Stadt Rottweil, wo er von Metzgern als Treib- und Schutzhund für Viehherden genutzt wurde.",
@@ -216,6 +232,7 @@ window.RASSEN = [
   {
     id: "dobermann",
     name: "Dobermann",
+    auch: ["Dobi"],
     stufe: 1, fci: 2, herkunft: "Deutschland", groesse: "gross",
     info: [
       "Benannt nach Friedrich Louis Dobermann aus Apolda (Thüringen), der um 1880 einen wehrhaften Begleithund züchtete.",
@@ -230,6 +247,7 @@ window.RASSEN = [
   {
     id: "siberian-husky",
     name: "Siberian Husky",
+    auch: ["Husky"], sprache: "en",
     stufe: 1, fci: 5, herkunft: "USA", groesse: "mittel",
     info: [
       "Geht auf die Schlittenhunde der Tschuktschen in Sibirien zurück; als Rasse wurde er in den USA (Alaska) weiterentwickelt.",
@@ -244,6 +262,7 @@ window.RASSEN = [
   {
     id: "beagle",
     name: "Beagle",
+    auch: [], sprache: "en",
     stufe: 1, fci: 6, herkunft: "Großbritannien", groesse: "mittel",
     info: [
       "In England als Meutehund für die Jagd auf Hasen und Kaninchen gezüchtet.",
@@ -258,6 +277,7 @@ window.RASSEN = [
   {
     id: "pudel",
     name: "Pudel",
+    auch: ["Caniche"],
     stufe: 1, fci: 9, herkunft: "Frankreich (umstritten: Deutschland)", groesse: "mittel",
     info: [
       "Ursprünglich ein Wasser- und Apportierhund; der Name kommt vom alten Wort „pudeln“ für im Wasser plantschen.",
@@ -272,6 +292,7 @@ window.RASSEN = [
   {
     id: "malteser",
     name: "Malteser",
+    auch: ["Bichon Maltais"],
     stufe: 1, fci: 9, herkunft: "Mittelmeerraum (Italien)", groesse: "klein",
     info: [
       "Einer der ältesten europäischen Schoßhunde, schon in der Antike im Mittelmeerraum bekannt.",
@@ -286,6 +307,7 @@ window.RASSEN = [
   {
     id: "havaneser",
     name: "Havaneser",
+    auch: ["Bichon Havanais"],
     stufe: 1, fci: 9, herkunft: "Kuba", groesse: "klein",
     info: [
       "Benannt nach Havanna; die Rasse wurde in Kuba als Begleithund der Oberschicht entwickelt.",
@@ -300,6 +322,7 @@ window.RASSEN = [
   {
     id: "shih-tzu",
     name: "Shih Tzu",
+    auch: ["Löwenhund"], aussprache: "Schitzu",
     stufe: 1, fci: 9, herkunft: "Tibet / China", groesse: "klein",
     info: [
       "Stammt aus Tibet und war ein beliebter Palasthund am chinesischen Kaiserhof; der Name bedeutet „Löwenhund“.",
@@ -314,6 +337,7 @@ window.RASSEN = [
   {
     id: "cavalier-king-charles-spaniel",
     name: "Cavalier King Charles Spaniel",
+    auch: ["Cavalier"], sprache: "en",
     stufe: 1, fci: 9, herkunft: "Großbritannien", groesse: "klein",
     info: [
       "Benannt nach König Karl II. von England, der kleine Spaniels liebte.",
@@ -327,7 +351,8 @@ window.RASSEN = [
   },
   {
     id: "zwergspitz",
-    name: "Zwergspitz (Pomeranian)",
+    name: "Zwergspitz",
+    auch: ["Pomeranian","Pom"],
     stufe: 1, fci: 5, herkunft: "Deutschland", groesse: "klein",
     info: [
       "Die kleinste Variante des Deutschen Spitzes; der englische Name Pomeranian verweist auf die Region Pommern.",
@@ -342,6 +367,7 @@ window.RASSEN = [
   {
     id: "deutsch-drahthaar",
     name: "Deutsch Drahthaar",
+    auch: ["DD","Drahthaar"],
     stufe: 1, fci: 7, herkunft: "Deutschland", groesse: "gross",
     info: [
       "Ende des 19. Jahrhunderts als vielseitiger Jagdgebrauchshund für Feld, Wald und Wasser gezüchtet.",
@@ -356,6 +382,7 @@ window.RASSEN = [
   {
     id: "weimaraner",
     name: "Weimaraner",
+    auch: ["Weimi"],
     stufe: 1, fci: 7, herkunft: "Deutschland", groesse: "gross",
     info: [
       "Am Hof von Weimar als Jagdhund gezüchtet und eine der ältesten deutschen Vorstehhunderassen.",
@@ -369,7 +396,8 @@ window.RASSEN = [
   },
   {
     id: "magyar-vizsla",
-    name: "Magyar Vizsla (Kurzhaar)",
+    name: "Magyar Vizsla",
+    auch: ["Vizsla","Kurzhaariger Ungarischer Vorstehhund"], aussprache: "Madjar Wischla",
     stufe: 1, fci: 7, herkunft: "Ungarn", groesse: "gross",
     info: [
       "Der ungarische Vorstehhund wurde für die Jagd in der Steppe Ungarns gezüchtet.",
@@ -384,6 +412,7 @@ window.RASSEN = [
   {
     id: "englische-bulldogge",
     name: "Englische Bulldogge",
+    auch: ["English Bulldog","Bulldog"],
     stufe: 1, fci: 2, herkunft: "Großbritannien", groesse: "mittel",
     info: [
       "Ursprünglich für das grausame Bullbaiting (Kämpfe gegen Bullen) gezüchtet, das 1835 in England verboten wurde.",
@@ -398,6 +427,7 @@ window.RASSEN = [
   {
     id: "cocker-spaniel",
     name: "English Cocker Spaniel",
+    auch: ["Cocker","Englischer Cockerspaniel"], sprache: "en",
     stufe: 1, fci: 8, herkunft: "Großbritannien", groesse: "mittel",
     info: [
       "In England als Stöberhund für die Jagd auf Waldschnepfen (englisch „woodcock“) gezüchtet.",
@@ -412,6 +442,7 @@ window.RASSEN = [
   {
     id: "west-highland-white-terrier",
     name: "West Highland White Terrier",
+    auch: ["Westie"], sprache: "en",
     stufe: 1, fci: 3, herkunft: "Großbritannien", groesse: "klein",
     info: [
       "Stammt aus dem schottischen Hochland und wurde für die Jagd auf Fuchs und Dachs gezüchtet.",
@@ -426,6 +457,7 @@ window.RASSEN = [
   {
     id: "dalmatiner",
     name: "Dalmatiner",
+    auch: ["Dalmatian"],
     stufe: 1, fci: 6, herkunft: "Kroatien", groesse: "gross",
     info: [
       "Benannt nach der Region Dalmatien in Kroatien; in England begleitete er früher Kutschen als Laufhund.",
@@ -440,6 +472,7 @@ window.RASSEN = [
   {
     id: "weisser-schweizer-schaeferhund",
     name: "Weißer Schweizer Schäferhund",
+    auch: ["Berger Blanc Suisse","Weißer Schäferhund"],
     stufe: 1, fci: 1, herkunft: "Schweiz", groesse: "gross",
     info: [
       "Geht auf weiße Schäferhunde aus Deutschland, den USA und Kanada zurück; die Rasse wurde in der Schweiz anerkannt.",
@@ -453,7 +486,8 @@ window.RASSEN = [
   },
   {
     id: "malinois",
-    name: "Belgischer Schäferhund (Malinois)",
+    name: "Malinois",
+    auch: ["Belgischer Schäferhund","Mali"], aussprache: "Malinoa",
     stufe: 1, fci: 1, herkunft: "Belgien", groesse: "gross",
     info: [
       "Benannt nach der belgischen Stadt Mechelen (französisch Malines); einer von vier Schlägen des Belgischen Schäferhundes.",
@@ -468,6 +502,7 @@ window.RASSEN = [
   {
     id: "bernhardiner",
     name: "Bernhardiner",
+    auch: ["St. Bernhardshund"],
     stufe: 1, fci: 2, herkunft: "Schweiz", groesse: "sehr-gross",
     info: [
       "Benannt nach dem Hospiz am Großen Sankt Bernhard, wo Mönche ihn zur Rettung von Reisenden im Schnee einsetzten.",
@@ -482,6 +517,7 @@ window.RASSEN = [
   {
     id: "neufundlaender",
     name: "Neufundländer",
+    auch: ["Neufi","Newfie"],
     stufe: 1, fci: 2, herkunft: "Kanada", groesse: "sehr-gross",
     info: [
       "Stammt von der kanadischen Insel Neufundland, wo er Fischern beim Ziehen von Netzen half.",
@@ -496,6 +532,7 @@ window.RASSEN = [
   {
     id: "deutsche-dogge",
     name: "Deutsche Dogge",
+    auch: ["Dogge","Great Dane"],
     stufe: 1, fci: 2, herkunft: "Deutschland", groesse: "sehr-gross",
     info: [
       "Geht auf große Hatz- und Saupacker zurück, die früher zur Wildschweinjagd eingesetzt wurden.",
@@ -510,6 +547,7 @@ window.RASSEN = [
   {
     id: "hovawart",
     name: "Hovawart",
+    auch: ["Hovi"],
     stufe: 1, fci: 2, herkunft: "Deutschland", groesse: "gross",
     info: [
       "Der Name bedeutet „Hofwächter“; die Rasse wurde im 20. Jahrhundert nach mittelalterlichen Vorbildern neu aufgebaut.",
@@ -524,6 +562,7 @@ window.RASSEN = [
   {
     id: "leonberger",
     name: "Leonberger",
+    auch: ["Leo"],
     stufe: 1, fci: 2, herkunft: "Deutschland", groesse: "sehr-gross",
     info: [
       "Um 1840 in Leonberg bei Stuttgart gezüchtet – angeblich sollte er dem Löwen im Stadtwappen ähneln.",
@@ -538,6 +577,7 @@ window.RASSEN = [
   {
     id: "collie-langhaar",
     name: "Collie (Langhaar)",
+    auch: ["Langhaarcollie","Rough Collie","„Lassie-Hund“"],
     stufe: 1, fci: 1, herkunft: "Großbritannien", groesse: "gross",
     info: [
       "Stammt aus dem schottischen Hochland und wurde als Hütehund für Schafe eingesetzt.",
@@ -551,7 +591,8 @@ window.RASSEN = [
   },
   {
     id: "shetland-sheepdog",
-    name: "Shetland Sheepdog (Sheltie)",
+    name: "Shetland Sheepdog",
+    auch: ["Sheltie"], sprache: "en",
     stufe: 1, fci: 1, herkunft: "Großbritannien", groesse: "klein",
     info: [
       "Stammt von den Shetlandinseln, wo er kleine Schafe und Ponys hütete.",
@@ -566,6 +607,7 @@ window.RASSEN = [
   {
     id: "welsh-corgi-pembroke",
     name: "Welsh Corgi Pembroke",
+    auch: ["Corgi"], sprache: "en",
     stufe: 1, fci: 1, herkunft: "Großbritannien", groesse: "klein",
     info: [
       "Stammt aus Pembrokeshire in Wales und trieb Rinder, indem er ihnen in die Fersen zwickte.",
@@ -580,6 +622,7 @@ window.RASSEN = [
   {
     id: "bichon-frise",
     name: "Bichon Frisé",
+    auch: ["Bichon"], aussprache: "Bischong Frisee",
     stufe: 1, fci: 9, herkunft: "Belgien / Frankreich", groesse: "klein",
     info: [
       "Ein Abkömmling alter Mittelmeer-Schoßhunde, der im 16. Jahrhundert an französischen Höfen beliebt war.",
@@ -594,6 +637,7 @@ window.RASSEN = [
   {
     id: "zwergschnauzer",
     name: "Zwergschnauzer",
+    auch: ["Schnauzer"],
     stufe: 1, fci: 2, herkunft: "Deutschland", groesse: "klein",
     info: [
       "Die kleinste der drei Schnauzer-Rassen, ursprünglich als Rattenfänger auf Bauernhöfen gehalten.",
@@ -608,6 +652,7 @@ window.RASSEN = [
   {
     id: "akita-inu",
     name: "Akita Inu",
+    auch: ["Akita"],
     stufe: 1, fci: 5, herkunft: "Japan", groesse: "gross",
     info: [
       "Stammt aus der Präfektur Akita in Japan und wurde dort als Jagd- und Wachhund gehalten.",
@@ -622,6 +667,7 @@ window.RASSEN = [
   {
     id: "shiba-inu",
     name: "Shiba Inu",
+    auch: ["Shiba"],
     stufe: 1, fci: 5, herkunft: "Japan", groesse: "klein",
     info: [
       "Die kleinste und älteste der japanischen Hunderassen, ursprünglich zur Jagd in bergigem Gelände eingesetzt.",
@@ -636,6 +682,7 @@ window.RASSEN = [
   {
     id: "samojede",
     name: "Samojede",
+    auch: ["Samoyed","Sammy"],
     stufe: 1, fci: 5, herkunft: "Russland (Sibirien)", groesse: "mittel",
     info: [
       "Benannt nach den samojedischen Völkern Sibiriens (z. B. den Nenzen), die ihn zum Hüten von Rentieren und als Zughund nutzten.",
@@ -650,6 +697,7 @@ window.RASSEN = [
   {
     id: "alaskan-malamute",
     name: "Alaskan Malamute",
+    auch: ["Malamute"], sprache: "en",
     stufe: 1, fci: 5, herkunft: "USA (Alaska)", groesse: "gross",
     info: [
       "Benannt nach dem Inuit-Volk der Mahlemiut in Alaska, die ihn als Lastschlittenhund nutzten.",
@@ -664,6 +712,7 @@ window.RASSEN = [
   {
     id: "whippet",
     name: "Whippet",
+    auch: [], sprache: "en",
     stufe: 1, fci: 10, herkunft: "Großbritannien", groesse: "mittel",
     info: [
       "Im 19. Jahrhundert in Nordengland für Hunderennen und die Kaninchenjagd gezüchtet.",
@@ -678,6 +727,7 @@ window.RASSEN = [
   {
     id: "greyhound",
     name: "Greyhound",
+    auch: ["Englischer Windhund"], sprache: "en",
     stufe: 1, fci: 10, herkunft: "Großbritannien", groesse: "gross",
     info: [
       "Eine der ältesten Windhundrassen, in England für die Hetzjagd und später für Hunderennen gezüchtet.",
@@ -692,6 +742,7 @@ window.RASSEN = [
   {
     id: "rhodesian-ridgeback",
     name: "Rhodesian Ridgeback",
+    auch: ["Ridgeback","RR"], sprache: "en",
     stufe: 1, fci: 6, herkunft: "Südliches Afrika", groesse: "gross",
     info: [
       "Im südlichen Afrika (ehemals Rhodesien, heute Simbabwe) als Jagd- und Wachhund gezüchtet.",
@@ -706,6 +757,7 @@ window.RASSEN = [
   {
     id: "bullterrier",
     name: "Bullterrier",
+    auch: ["Bull Terrier","English Bull Terrier"],
     stufe: 1, fci: 3, herkunft: "Großbritannien", groesse: "mittel",
     info: [
       "Im 19. Jahrhundert in England aus Bulldoggen und Terriern gezüchtet.",
